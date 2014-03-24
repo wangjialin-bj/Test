@@ -71,3 +71,11 @@ ERR: 无法加载控制器:Order
 [ 2014-03-24T10:01:48+08:00 ] 127.0.0.1 /onethinksvn/admin/Order/orderlist.html
 ERR: 无法加载控制器:Order
 
+[ 2014-03-24T14:48:11+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:48:31+08:00 ] 127.0.0.1 /git/Test/index.php?s=/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T14:48:31+08:00 ] 127.0.0.1 /git/Test/index.php?s=/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T14:49:38+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
