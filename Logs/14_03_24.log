@@ -79,3 +79,113 @@ mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"
 mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
 [ 2014-03-24T14:49:38+08:00 ] 127.0.0.1 /git/Test/
 mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:47+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:49+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/help.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:50+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Article/index/category/blog.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:51+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/help.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:52+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:53+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/help.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:54+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Article/index/category/blog.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:55+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Goods/Goodslist.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:55:55+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Article/index/category/blog.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:56:00+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T14:56:00+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.003085s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.000978s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000410s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-24T14:56:04+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-24T14:56:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001961s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001204s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001229s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000502s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000416s ]
+
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-24T14:56:06+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
