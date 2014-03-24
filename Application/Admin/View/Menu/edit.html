@@ -1,0 +1,85 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>
+            <if condition="empty($info['id'])" >
+                {$Think.lang.L_ADD_NEWMENU}
+            </if>
+            <if condition="!empty($info['id'])" >
+                {$Think.lang.L_EDIT_NEWMENU}
+            </if>
+        </h2>
+    </div>
+    <form action="{:U()}" method="post" class="form-horizontal">
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_TH_TITLE}<span class="check-tips">（用于后台显示的配置标题）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="title" value="{$info.title|default=''}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_TH_SORT}<span class="check-tips">（用于分组显示的顺序）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-small" name="sort" value="{$info.sort|default=0}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_URL}<span class="check-tips">（U函数解析的URL或者外链）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="url" value="{$info.url|default=''}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_TH_SUPER_MENU}<span class="check-tips">（所属的上级菜单）</span></label>
+            <div class="controls">
+                <select name="pid">
+                    <volist name="Menus" id="menu">
+                        <option value="{$menu.id}">{$menu.title_show}</option>
+                    </volist>
+                </select>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_TH_GROUP}<span class="check-tips">（用于左侧分组二级菜单）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="group" value="{$info.group|default=''}">
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_TH_HIDDEN}<span class="check-tips"></span></label>
+            <div class="controls">
+                <label class="radio"><input type="radio" name="hide" value="1">{$Think.Lang.L_STATUS_YES}</label>
+                <label class="radio"><input type="radio" name="hide" value="0">{$Think.Lang.L_STATUS_NO}</label>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_TH_DEVELOPER_SHOW}<span class="check-tips"></span></label>
+            <div class="controls">
+                <label class="radio"><input type="radio" name="is_dev" value="1">{$Think.Lang.L_STATUS_YES}</label>
+                <label class="radio"><input type="radio" name="is_dev" value="0">{$Think.Lang.L_STATUS_NO}</label>
+            </div>
+        </div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_DESCRIPTION}<span class="check-tips">（菜单详细说明）</span></label>
+            <div class="controls">
+                <input type="text" class="text input-large" name="tip" value="{$info.tip|default=''}">
+            </div>
+        </div>
+        <div class="form-item">
+            <input type="hidden" name="id" value="{$info.id|default=''}">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">{$Think.Lang.L_BTN_OK}</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">{$Think.Lang.L_BTN_BACK}</button>
+        </div>
+    </form>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        Think.setValue("pid", {$info.pid|default = 0});
+        Think.setValue("hide", {$info.hide|default = 0});
+        Think.setValue("is_dev", {$info.is_dev|default = 0});
+        //导航高亮
+        highlight_subnav('{:U('index')}');
+    </script>
+</block>

@@ -1,0 +1,73 @@
+[ 2014-03-24T09:44:38+08:00 ] 127.0.0.1 /onethinksvn/
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T09:44:53+08:00 ] 127.0.0.1 /onethinksvn/admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000170s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003190s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001277s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.003032s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.000801s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1395625493,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.003466s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.002113s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.002485s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1395625493,'dz5362在2014-03-24 09:44登录了后台') [ RunTime:0.001419s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000376s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/onethinksvn/Application/Common/Common/function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/onethinksvn/Application/Common/Common/function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1395539093 ) LIMIT 1   [ RunTime:0.002049s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001364s ]
+SQL: UPDATE `db_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.000347s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1395625493,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000242s ]
+
+[ 2014-03-24T09:44:53+08:00 ] 127.0.0.1 /onethinksvn/admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T09:44:53+08:00 ] 127.0.0.1 /onethinksvn/admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-24T09:44:56+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-24T09:44:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-24T09:45:05+08:00 ] 127.0.0.1 /onethinksvn/admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-24T09:45:05+08:00 ] 127.0.0.1 /onethinksvn/admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-24T09:53:37+08:00 ] 127.0.0.1 /onethinksvn/admin/Order/orderlist.html
+ERR: 无法加载控制器:Order
+
+[ 2014-03-24T10:01:48+08:00 ] 127.0.0.1 /onethinksvn/admin/Order/orderlist.html
+ERR: 无法加载控制器:Order
+

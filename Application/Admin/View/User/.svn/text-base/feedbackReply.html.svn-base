@@ -1,0 +1,39 @@
+<extend name="Public/base"/>
+
+<block name="body">
+    <div class="main-title">
+        <h2>回复反馈</h2>
+    </div>
+    <p>
+        <b>用户名：{$_data.uid|get_username}&nbsp;&nbsp;&nbsp;&nbsp;用户邮箱：{$_data.email}</b>
+    </p>
+    <p><b>用户反馈内容：</b></p>
+    <div style="padding:10px 10px 10px 0px;">{$_data.content}</div>
+    <p><b>管理员回复内容：</b></p>
+    <div style="padding:10px 10px 10px 0px;">{$_data.reply|default='暂未回复'}</div>
+    <form action="{:U()}" method="post" class="form-horizontal">
+        <div class="form-item cf">
+            <label class="item-label">回复内容<span class="check-tips">（管理员进行邮件回复反馈）</span></label>
+            
+        </div>
+        <div class="controls">
+                <label class="textarea"><textarea name="reply"></textarea>
+                {:hook('adminArticleEdit', array('name'=>'reply','value'=>''))}
+                </label>
+        </div>
+        <div class="form-item">
+            <button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">{$Think.Lang.L_BTN_OK}</button>
+            <button class="btn btn-return" onclick="javascript:history.back(-1);return false;">{$Think.Lang.L_BTN_BACK}</button>
+        </div>
+        <input type='hidden' name="email" value="{$_data.email}" />
+        <input type='hidden' name="feedback_id" value="{$_data.feedback_id}" />
+        <input type='hidden' name="uid" value="{$_data.uid}" />
+    </form>
+</block>
+
+<block name="script">
+    <script type="text/javascript">
+        //导航高亮
+        highlight_subnav('{:U('User/feedback')}');
+    </script>
+</block>

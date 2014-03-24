@@ -1,0 +1,36 @@
+<extend name="Public/base" />
+
+<block name="body">
+	<!-- 标题栏 -->
+		<div class="tab-wrap">
+		<ul class="tab-nav nav">
+		<li class="current"><a href="{:U('updatenickname')}">{$Think.Lang.L_UPDATENAME_1}</a></li>
+		<li ><a href="{:U('updatepassword')}">{$Think.Lang.L_UPDATEPWD_4}</a></li>
+		</ul>
+		<div class="tab-content">
+	<!-- 修改密码表单 -->
+    <form action="{:U('User/submitNickname')}" method="post" class="form-horizontal" autocomplete="off">
+		<div class="form-item">
+			<label class="item-label">{$Think.Lang.L_UPDATENAME_2}<span class="check-tips">（请输入密码）</span></label>
+			<div class="controls">
+				<input type="password" name="password" class="text input-large"  autocomplete="off"/>
+			</div>
+		</div>
+		<div class="form-item">
+			<label class="item-label">{$Think.Lang.L_UPDATENAME_3}<span class="check-tips">（请输入新昵称）</span></label>
+			<div class="controls">
+				<input type="text" name="nickname" class="text input-large" autocomplete="off" value="{:get_username()}"/>
+			</div>
+		</div>
+		<div class="form-item">
+			<button type="submit" class="btn submit-btn ajax-post" target-form="form-horizontal">{$Think.Lang.L_BTN_OK}</button>
+			<button class="btn btn-return" onclick="javascript:history.back(-1);return false;">{$Think.Lang.L_BTN_BACK}</button>
+		</div>
+	</form>
+			</div>
+	</div>
+</block>
+
+<block name="script">
+	<script src="__STATIC__/thinkbox/jquery.thinkbox.js"></script>
+</block>

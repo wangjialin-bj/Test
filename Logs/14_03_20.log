@@ -1,0 +1,334 @@
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:23:15+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.001298s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config` WHERE ( `status` = 1 )  [ RunTime:0.000320s ]
+NOTIC: [2] file_put_contents(./Runtime/Temp/95a1fe934b68ebfee8468bf0bc4f0000.php): failed to open stream: No such file or directory /Library/WebServer/Documents/onethinksvn/ThinkPHP/Library/Think/Cache/Driver/File.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001236s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000396s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000343s ]
+
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:23:32+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001718s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001350s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001267s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001554s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000467s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000307s ]
+
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:23:34+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:25:19+08:00 ] 127.0.0.1 /onethinksvn/admin/Config/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003135s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001177s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000434s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000316s ]
+
+[ 2014-03-20T16:25:26+08:00 ] 127.0.0.1 /onethinksvn/admin/Config/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001597s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002703s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001118s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000472s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000317s ]
+
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:29:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:29:12+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:29:20+08:00 ] 127.0.0.1 /onethinksvn/admin/Config/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002789s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001075s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000438s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000347s ]
+
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:29:21+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:30:59+08:00 ] 127.0.0.1 /onethinksvn/admin/Config/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001680s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001169s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000409s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000308s ]
+
+[ 2014-03-20T16:31:01+08:00 ] 127.0.0.1 /onethinksvn/admin/Config/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000159s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003043s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003130s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001300s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000413s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000350s ]
+
+[ 2014-03-20T16:31:03+08:00 ] 127.0.0.1 /onethinksvn/admin/Config/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002758s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001238s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000424s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000313s ]
+
+[ 2014-03-20T16:31:20+08:00 ] 127.0.0.1 /onethinksvn/admin/Menu/del/id/129.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000093s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001362s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001444s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000562s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Menu/del%' ) LIMIT 1   [ RunTime:0.000469s ]
+SQL: DELETE FROM `db_menu` WHERE ( `id` IN ('129') ) [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001839s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001546s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',1395304279,'操作url：/onethinksvn/admin/Menu/del/id/129.html') [ RunTime:0.012131s ]
+
+[ 2014-03-20T16:31:24+08:00 ] 127.0.0.1 /onethinksvn/admin/Menu/index/pid/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000142s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002427s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003110s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001181s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000385s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000322s ]
+
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:31:51+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:33:37+08:00 ] 127.0.0.1 /onethinksvn/admin/Channel/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002776s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001262s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000394s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000298s ]
+
+[ 2014-03-20T16:33:39+08:00 ] 127.0.0.1 /onethinksvn/admin/Channel/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002879s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001297s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000511s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000421s ]
+
+[ 2014-03-20T16:33:40+08:00 ] 127.0.0.1 /onethinksvn/admin/Channel/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000188s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002759s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001513s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000611s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000378s ]
+
+[ 2014-03-20T16:33:40+08:00 ] 127.0.0.1 /onethinksvn/admin/Channel/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002714s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001156s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000391s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000327s ]
+
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:33:41+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000167s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002938s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001383s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000433s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000322s ]
+
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: null
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-03-20T16:33:42+08:00 ] 127.0.0.1 /onethinksvn/admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}

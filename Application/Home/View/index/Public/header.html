@@ -1,0 +1,48 @@
+<style type="text/css">
+</style>
+ <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="{:U('index/index')}" class="navbar-brand">OneThink</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+      <think:nav name="nav">
+                <eq name="nav.pid" value="0">
+                    <li <if condition="$guide eq $nav['title']">class="active"</if> >
+                        <a href="{$nav.url|get_nav_url}" target="<eq name='nav.target' value='1'>_blank<else/>_self</eq>">
+                        {$nav.title}</a></li>
+                </eq>
+            </think:nav>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <if condition="is_login()">
+            <li class="<if condition='$guide eq "usercenter"'>active</if>">
+                <a href="{:U('Home/User/index')}">
+                <i class="icon-home"></i> {:L('L_USER_CENTER')}</a>
+            </li>
+            <li class="<if condition='$guide eq "message"'>active</if>">
+                <a class="dropdown-toggle" href="{:U('/Home/Message')}"><i class="icon-envelope"></i> {:L("L_USER_MESSAGE")}&nbsp;&nbsp;<span id="message_number" class='badge badge-info msg_num <if condition="!getUnReadMessageCount(0)">hide</if>'>{:getUnReadMessageCount(0)}</span></a>
+            </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{:get_username()}<b class="caret"></b> </a>
+                <ul class="dropdown-menu">
+                    <li> <a href="{:U('User/profile')}"> <i class="icon-cog"></i> 修改密码 </a> </li>
+                  <!--   <li> <a href="{:U('Goods/Index')}"> <i class="icon-cog"></i> 购物车 <span id="goodscart_number" class='badge badge-info msg_num'>0</span></a> </li> -->
+                    <li class="divider">&nbsp;</li>
+                    <li><a href="{:U('User/logout')}"><i class="icon-off"></i>  {:L("L_LOG_OUT")}</a></li>
+                </ul>
+            </li>
+        <else/> 
+            <li><a href="{:U('User/Register')}">注册</a></li>
+            <li class=""><a href="{:U('User/login')}">登录</a></li>
+        </if>
+      </ul>
+    </nav>
+  </div>
+</header>

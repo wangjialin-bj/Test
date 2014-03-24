@@ -1,0 +1,30 @@
+<extend name="Base/common"/>
+<block name="header">
+    <div class="container">
+        <div class="hero-unit">
+            <h1>Hello, App!</h1>
+            <p>This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+            <p><a href="#" class="btn btn-primary btn-large">Learn more</a></p>
+            <a href="javascript:;" id="open_window" class="btn btn-info">dialog</a>
+        </div>
+
+</block>
+
+<block name="body">
+        <div class="span9">
+
+        </div>
+    </div>
+<div id="dialog" style='display:none;'>
+    <p></p>
+</div>
+    <script>
+        $(function()
+        {
+            $('#open_window').click(function(){
+                dialog('dialog' , '最好最强大' , '<h4>显示具体的内容</h4>' ,'test_dialog()',350,200,'创建','关闭');
+            })
+        })
+    </script>
+    
+</block>

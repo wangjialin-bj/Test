@@ -1,0 +1,7 @@
+[ 2014-03-06T11:12:32+08:00 ] 127.0.0.1 /onethinksvn/Home/Index/sendmail
+WARN: uid:4发送邮件成功!
+[ 2014-03-06T11:12:32+08:00 ] 127.0.0.1 /onethinksvn/Home/Index/sendmail
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000214s ]
+

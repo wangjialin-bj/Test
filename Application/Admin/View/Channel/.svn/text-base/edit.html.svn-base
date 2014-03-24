@@ -1,0 +1,58 @@
+<extend name="Public/base"/>
+
+<block name="body">
+	<div class="main-title">
+		<h2>
+			<if condition="empty($info['id'])" >
+				{$Think.lang.L_ADD_NEWNAV}
+			</if>
+			<if condition="!empty($info['id'])" >
+				{$Think.lang.L_EDIT_NAV}
+			</if>
+			<notempty name="pid">
+				[&nbsp;{$Think.lang.L_ADD_SUPERNAV}：<a href="{:U('index','pid='.$pid)}">{$parent.title}</a>&nbsp;]
+			</notempty>
+		</h2>
+	</div>
+	<form action="{:U()}" method="post" class="form-horizontal">
+		<input type="hidden" name="pid" value="{$pid}">
+		<div class="form-item">
+			<label class="item-label">{$Think.Lang.L_ADD_NAV_TITLE}<span class="check-tips">（用于显示的文字）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-large" name="title" value="{$info.title|default=''}">
+			</div>
+		</div>
+		<div class="form-item">
+			<label class="item-label">{$Think.Lang.L_ADD_NAV_URL}<span class="check-tips">（用于调转的URL，支持带http://的URL或U函数参数格式）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-large" name="url" value="{$info.url|default=''}">
+			</div>
+		</div>
+        <div class="form-item">
+            <label class="item-label">{$Think.Lang.L_ADD_NAV_WINDOW}<span class="check-tips">（是否新窗口打开链接）</span></label>
+            <div class="controls">
+                <select name="target">
+                     <option value="0">{$Think.Lang.L_STATUS_NO}</option>
+					 <option value="1">{$Think.Lang.L_STATUS_YES}</option>
+                </select>
+            </div>
+        </div>
+		<div class="form-item">
+			<label class="item-label">{$Think.Lang.L_ADD_NAV_PRIORITY}<span class="check-tips">（导航显示顺序）</span></label>
+			<div class="controls">
+				<input type="text" class="text input-small" name="sort" value="{$info.sort|default='0'}">
+			</div>
+		</div>
+		<div class="form-item">
+			<input type="hidden" name="id" value="{$info.id|default=''}">
+			<button class="btn submit-btn ajax-post" id="submit" type="submit" target-form="form-horizontal">{$Think.Lang.L_BTN_OK}</button>
+			<button class="btn btn-return" onclick="javascript:history.back(-1);return false;">{$Think.Lang.L_BTN_BACK}</button>
+		</div>
+	</form>
+</block>
+<block name="script">
+<script type="text/javascript" charset="utf-8">
+	//导航高亮
+	highlight_subnav('{:U('index')}');
+</script>
+</block>

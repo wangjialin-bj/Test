@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test
+END
+test_callback.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/test_callback.php
+END
+bootstrap.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/bootstrap.php
+END
+testbootstrap-dist.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/testbootstrap-dist.php
+END
+fakepopserver.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/fakepopserver.sh
+END
+phpmailerTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/phpmailerTest.php
+END
+phpmailerLangTest.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/phpmailerLangTest.php
+END
+runfakepopserver.sh
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/runfakepopserver.sh
+END
+fakesendmail.sh
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/appida82k8ce7qy/!svn/ver/4/0/ThinkPHP/Library/Vendor/PHPMailer/test/fakesendmail.sh
+END

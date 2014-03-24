@@ -1,0 +1,110 @@
+<extend name="Public/base"/>
+
+<block name="body">
+	<div class="main-title">
+		<h2>{$Think.Lang.L_TITLE_CONFIG_MANAGE} [ <present name="Think.get.group">
+         <a href="{:U('index')}">ALL</a><else/><strong>All</strong></present>&nbsp;<foreach name="group" item="vo">
+		<neq name="group_id" value="$key">
+         <a href="{:U('index?group='.$key)}">{$vo}</a><else/><strong>{$vo}</strong></neq>&nbsp;     
+        </foreach> ]</h2>
+	</div>
+
+	<div class="cf">
+		<a class="btn" href="{:U('add')}">{$Think.Lang.L_BTN_ADD}</a>
+		<a class="btn" href="javascript:;">{$Think.Lang.L_BTN_DELETE}</a>
+		<button class="btn list_sort" url="{:U('sort?group='.I('group'),'','')}">{$Think.Lang.L_BTN_SORT}</button>
+		<!-- 高级搜索 -->
+		<div class="search-form fr cf">
+			<div class="sleft">
+				<input type="text" name="name" class="search-input" value="{:I('name')}" placeholder="{$Think.Lang.L_SEARCH_INFO_CONFIG}">
+				<a class="sch-btn" href="javascript:;" id="search" url="{:U('config/index')}"><i class="btn-search"></i></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="data-table table-striped">
+		<table>
+			<thead>
+				<tr>
+					<th class="row-selected">
+						<input class="checkbox check-all" type="checkbox">
+					</th>
+					<th>ID</th>
+					<th>{$Think.Lang.L_TH_NAME}</th>
+					<th>{$Think.Lang.L_TH_TITLE}</th>
+					<th>{$Think.Lang.L_TH_GROUP}</th>
+					<th>{$Think.Lang.L_TH_TYPE}</th>
+					<th>{$Think.Lang.L_TH_ACTION}</th>
+				</tr>
+			</thead>
+			<tbody>
+				<notempty name="list">
+				<volist name="list" id="config">
+					<tr>
+						<td><input class="ids row-selected" type="checkbox" name="id[]" value="{$config.id}"></td>
+						<td>{$config.id}</td>
+						<td><a href="{:U('edit?id='.$config['id'])}">{$config.name}</a></td>
+						<td>{$config.title}</td>
+						<td>{$config.group|get_config_group}</td>
+						<td>{$config.type|get_config_type}</td>
+						<td>
+							<a title="edit" href="{:U('edit?id='.$config['id'])}">{$Think.Lang.L_BTN_EDIT}</a>
+							<a class="confirm ajax-get" title="delete" href="{:U('del?id='.$config['id'])}">{$Think.Lang.L_BTN_DELETE}</a>
+						</td>
+					</tr>
+				</volist>
+				<else/>
+				<td colspan="6" class="text-center"> aOh! {$Think.Lang.L_TD_NO_DATA}! </td>
+				</notempty>
+			</tbody>
+		</table>
+		<!-- 分页 -->
+	    <div class="page">
+	        {$_page}
+	    </div>
+	</div>
+</block>
+
+<block name="script">
+<script type="text/javascript">
+$(function(){
+	//搜索功能
+	$("#search").click(function(){
+		var url = $(this).attr('url');
+        var query  = $('.search-form').find('input').serialize();
+        query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g,'');
+        query = query.replace(/^&/g,'');
+        if( url.indexOf('?')>0 ){
+            url += '&' + query;
+        }else{
+            url += '?' + query;
+        }
+		window.location.href = url;
+	});
+	//回车搜索
+	$(".search-input").keyup(function(e){
+		if(e.keyCode === 13){
+			$("#search").click();
+			return false;
+		}
+	});
+	//点击排序
+	$('.list_sort').click(function(){
+		var url = $(this).attr('url');
+		var ids = $('.ids:checked');
+		var param = '';
+		if(ids.length > 0){
+			var str = new Array();
+			ids.each(function(){
+				str.push($(this).val());
+			});
+			param = str.join(',');
+		}
+
+		if(url != undefined && url != ''){
+			window.location.href = url + '/ids/' + param;
+		}
+	});
+});
+</script>
+</block>

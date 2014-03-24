@@ -1,0 +1,37 @@
+ <div class="container-span top-columns cf">
+	<dl class="show-num-mod">
+		<dt><i class="count-icon user-count-icon"></i></dt>
+		<dd>
+			<strong>{$info.user}</strong>
+			<span>{$Think.lang.L_USER_NUMBER}</span>
+		</dd>
+	</dl>
+	<dl class="show-num-mod">
+		<dt><i class="count-icon user-action-icon"></i></dt>
+		<dd>
+			<strong>{$info.action}</strong>
+			<span>{$Think.lang.L_USER_ACTION}</span>
+		</dd>
+	</dl>
+	<dl class="show-num-mod">
+		<dt><i class="count-icon doc-count-icon"></i></dt>
+		<dd>
+			<strong>{$info.document}</strong>
+			<span>{$Think.lang.L_DOC_NUMBER}</span>
+		</dd>
+	</dl>
+	<dl class="show-num-mod">
+		<dt><i class="count-icon doc-modal-icon"></i></dt>
+		<dd>
+			<strong>{$info.model}</strong>
+			<span>{$Think.lang.L_DOC_MODEL}</span>
+		</dd>
+	</dl>
+	<dl class="show-num-mod">
+		<dt><i class="count-icon category-count-icon"></i></dt>
+		<dd>
+			<strong>{$info.category}</strong>
+			<span>{$Think.lang.L_CATEGORY_NUMBER}</span>
+		</dd>
+	</dl>
+</div>

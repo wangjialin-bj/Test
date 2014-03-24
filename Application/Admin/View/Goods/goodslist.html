@@ -1,0 +1,110 @@
+<extend name="Public/base" />
+
+<block name="body">
+    <!-- 标题栏 -->
+    <div class="main-title">
+        <h2>商品列表</h2>
+    </div>
+    <div class="cf">
+        <div class="fl">
+            <a class="btn" href="{:U('Goods/addNewGoods')}">新 增{:L("L_USER_MESSAGE")}</a>
+            <button class="btn ajax-post" url="{:U('Goods/changeStatus',array('method'=>'resumeUser'))}" target-form="ids">上 架</button>
+            <button class="btn ajax-post" url="{:U('Goods/changeStatus',array('method'=>'forbidUser'))}" target-form="ids">下 架</button>
+            <button class="btn ajax-post confirm" url="{:U('Goods/changeStatus',array('method'=>'deleteGoods'))}" target-form="ids">{$Think.Lang.L_BTN_DELETE}</button>
+        </div>
+
+        <!-- 高级搜索 -->
+        <div class="search-form fr cf">
+            <div class="sleft">
+                <input type="text" name="nickname" class="search-input" value="{:I('nickname')}" placeholder="请输入商品ID">
+                <a class="sch-btn" href="javascript:;" id="search" url="{:U('index')}"><i class="btn-search"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- 数据列表 -->
+    <div class="data-table table-striped">
+    <select id="changeLanguageStatus">
+        <option value="zh-cn" <if condition="cookie('think_language') eq 'zh-cn'">selected</if>>简体中文</option>
+        <option value="en-us" <if condition="cookie('think_language') eq 'en-us'">selected</if>>English</option>
+      </select>
+    <table class="">
+    <thead>
+        <tr>
+        <th class="row-selected row-selected"><input class="check-all" type="checkbox"/></th>
+        <th class="">ID</th>
+        <th class="">图片</th>
+        <th class="">商品编号</th>
+        <th class="">{$Think.Lang.L_TH_NAME}</th>
+        <th class="">价格</th>
+        <th class="">库存</th>
+        <th class="">简介</th>
+        <th class="">{$Think.Lang.L_TH_STATUS}</th>
+        <th class="">上架时间</th>
+        <th class="">更新时间</th>
+        <th class="">{$Think.Lang.L_TH_ACTION}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <notempty name="_list">
+        <volist name="_list" id="vo">
+        <tr>
+            <td><input class="ids" type="checkbox" name="id[]" value="{$vo.uid}" /></td>
+            <td>{$vo.goods_id} </td>
+            <td><img src="" style="width:60px;height:60px;" /></td>
+            <td>{$vo.goods_number}</td>
+            <td>{$vo.goods_name}</td>
+            <td>￥{$vo.goods_price}</td>
+            <td>{$vo.goods_count}</td>
+            <td>{$vo.goods_description}</td>
+            <td>{$vo.status}</td>
+            <td><span>{$vo.create_time|time_format}</span></td>
+            <td><span>{$vo.update_time|time_format}</span></td>
+            <td><eq name="vo.status" value="1">
+                <a href="{:U('User/changeStatus?method=forbidUser&id='.$vo['uid'])}" class="ajax-get">上架</a>
+                <else/>
+                <a href="{:U('User/changeStatus?method=resumeUser&id='.$vo['uid'])}" class="ajax-get">下架</a>
+                </eq>
+                <a href="{:U('AuthManager/group?uid='.$vo['uid'])}" class="confirm ajax-get">{$Think.Lang.L_BTN_DELETE}</a>
+                <a href="{:U('AuthManager/group?uid='.$vo['uid'])}" class="confirm ajax-get">{$Think.Lang.L_BTN_EDIT}</a>
+                </td>
+        </tr>
+        </volist>
+        <else/>
+        <td colspan="9" class="text-center"> aOh! {$Think.Lang.L_TD_NO_DATA}! </td>
+        </notempty>
+    </tbody>
+    </table>
+    </div>
+    <div class="page">
+        {$_page}
+    </div>
+</block>
+
+<block name="script">
+    <script src="__STATIC__/thinkbox/jquery.thinkbox.js"></script>
+
+    <script type="text/javascript">
+    //搜索功能
+    $("#search").click(function(){
+        var url = $(this).attr('url');
+        var query  = $('.search-form').find('input').serialize();
+        query = query.replace(/(&|^)(\w*?\d*?\-*?_*?)*?=?((?=&)|(?=$))/g,'');
+        query = query.replace(/^&/g,'');
+        if( url.indexOf('?')>0 ){
+            url += '&' + query;
+        }else{
+            url += '?' + query;
+        }
+        window.location.href = url;
+    });
+    //回车搜索
+    $(".search-input").keyup(function(e){
+        if(e.keyCode === 13){
+            $("#search").click();
+            return false;
+        }
+    });
+    //导航高亮
+    highlight_subnav('{:U('Goods/goodslist')}');
+    </script>
+</block>
