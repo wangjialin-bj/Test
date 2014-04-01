@@ -622,6 +622,6 @@ return array(
     'L_SEARCH_CREATE_TIME'          => "创建时间：",
 
     'L_VIEW_TITLE_1'                    => "我的文档",
-    'L_VIEW_TITLE_1'                    => "我的文档",
+    'L_VIEW_TITLE_2'                    => "我的文档",
  );
 ?>

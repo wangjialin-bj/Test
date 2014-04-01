@@ -1,0 +1,258 @@
+[ 2014-04-01T09:57:55+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T09:58:11+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002029s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.007062s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.002459s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.000484s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1396317490,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.004886s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.006235s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.020536s ]
+SQL: SELECT `nickname` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.030605s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1396317490,'dz5362在2014-04-01 09:58登录了后台') [ RunTime:0.006510s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000312s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1396231090 ) LIMIT 1   [ RunTime:0.012094s ]
+SQL: UPDATE `db_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.000391s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1396317490,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000348s ]
+
+[ 2014-04-01T09:58:11+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T09:58:11+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T09:58:14+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T09:58:17+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T09:58:17+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T09:58:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:02:03+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:02:15+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:02:15+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:02:22+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:02:22+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:02:23+08:00 ] 127.0.0.1 /git/Test/index.php/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001837s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003009s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.000949s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000419s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000293s ]
+
+[ 2014-04-01T10:02:23+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:02:23+08:00 ] 127.0.0.1 /git/Test/index.php/Admin
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002990s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001041s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000417s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000320s ]
+
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:02:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:02:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:06:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:06:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:07:56+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000140s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002666s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001375s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000398s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000415s ]
+
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:07:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000110s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.000951s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000414s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000337s ]
+
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-01T10:07:58+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}

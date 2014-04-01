@@ -36,9 +36,9 @@
                 <li class="{$menu.class|default=''}"><a href="{$menu.url|U}">{$menu.title}</a></li>
             </volist>
             <li id="changeLanguageStatus">
-            <if condition="cookie('think_language') eq 'en-us'">
+            <if condition="LANG_SET eq 'en-us'">
                 <a href="javascript:;" type="zh-cn">简体中文</a></if>
-            <if condition="cookie('think_language') eq 'zh-cn'">
+            <if condition="LANG_SET eq 'zh-cn'">
                 <a href="javascript:;" type="en-us">English</a></if>
             </li>
         </ul>
