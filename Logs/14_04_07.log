@@ -1,0 +1,138 @@
+[ 2014-04-07T09:20:40+08:00 ] 192.168.1.106 /git/TEST/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-07T09:21:57+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000138s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.009130s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.001442s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.000556s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1396833717,`last_login_ip`='3232235882' WHERE ( `id` = 1 ) [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001566s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001254s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001150s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,3232235882,'member',1,1396833717,'dz5362在2014-04-07 09:21登录了后台') [ RunTime:0.001493s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000258s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1396747317 ) LIMIT 1   [ RunTime:0.002376s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001239s ]
+SQL: UPDATE `db_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.000527s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1396833717,`last_login_ip`='3232235882' WHERE ( `uid` = 1 ) [ RunTime:0.000212s ]
+
+[ 2014-04-07T09:21:57+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-07T09:21:57+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-07T09:22:01+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002619s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001208s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000446s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000320s ]
+
+[ 2014-04-07T09:22:01+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-07T09:22:01+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-07T09:22:03+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001824s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.003169s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001168s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000377s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000339s ]
+
+[ 2014-04-07T09:22:03+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-07T09:22:03+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-07T09:22:04+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003140s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001245s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000443s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000368s ]
+
+[ 2014-04-07T09:22:04+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-07T09:22:04+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-07T09:22:05+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000087s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.003119s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001022s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000382s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000343s ]
+
+[ 2014-04-07T09:22:05+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-07T09:22:05+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-07T09:22:06+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003044s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001041s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000387s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000296s ]
+
+[ 2014-04-07T09:22:06+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-07T09:22:06+08:00 ] 192.168.1.106 /git/TEST/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-07T10:05:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000142s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003697s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.001225s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.001163s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.000327s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1396836308,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001186s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001149s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001168s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1396836308,'dz5362在2014-04-07 10:05登录了后台') [ RunTime:0.000223s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000226s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1396749908 ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1396836308,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000279s ]
+
+[ 2014-04-07T10:05:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-07T10:05:08+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}

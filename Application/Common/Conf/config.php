@@ -76,4 +76,13 @@ return array(
     /*日志操作*/
     'LOG_RECORD' => true, // 开启日志记录
     'LOG_LEVEL'  =>'EMERG,ALERT,CRIT,ERR', // 只记录EMERG ALERT CRIT ERR 错误
+
+    'DB_CONFIG1' => array(
+        'db_type'  => 'mysqli',
+        'db_user'  => 'root',
+        'db_pwd'   => '687091',
+        'db_host'  => 'localhost',
+        'db_port'  => '3306',
+        'db_name'  => ''
+    ),
 );
