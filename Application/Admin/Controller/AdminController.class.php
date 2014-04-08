@@ -398,7 +398,7 @@ class AdminController extends Controller {
         $options    =   array();
         $REQUEST    =   (array)I('request.');
         if(is_string($model)){
-            $model  =   M($model);
+            $model  =   M($model) ? M($model) : D($model);
         }
 
         $OPT        =   new \ReflectionProperty($model,'options');
@@ -414,6 +414,7 @@ class AdminController extends Controller {
         }elseif($order){
             $options['order'] = $order;
         }
+
         unset($REQUEST['_order'],$REQUEST['_field']);
 
         $options['where'] = array_filter(array_merge( (array)$base, /*$REQUEST,*/ (array)$where ),function($val){
@@ -447,6 +448,39 @@ class AdminController extends Controller {
 
         return $model->field($field)->select();
     }
+
+	protected function mylists ($model,$where=array(),$order='', $base=array('reply_id'=>array('gt',0)),$field=true){
+		$options    =   array();
+		$REQUEST    =   (array)I('request.');
+		if(is_string($model)){
+			$model  =    D($model);
+		}
+
+		if( empty($options['where'])){
+			unset($options['where']);
+		}
+		$options      =   array_merge( (array)$base, /*$REQUEST,*/ (array)$where );
+
+		$total        =   $model->where($options['where'])->count();
+
+		if( isset($REQUEST['r']) ){
+			$listRows = (int)$REQUEST['r'];
+		}else{
+			$listRows = C('LIST_ROWS') > 0 ? C('LIST_ROWS') : 10;
+		}
+		$page = new \Think\Page($total, $listRows, $REQUEST);
+		if($total>$listRows){
+			$page->setConfig('theme','%FIRST% %UP_PAGE% %LINK_PAGE% %DOWN_PAGE% %END% %HEADER%');
+		}
+		$p =$page->show();
+		$this->assign('_page', $p? $p: '');
+		$this->assign('_total',$total);
+		$options['limit'] = $page->firstRow.','.$page->listRows;
+
+		$model->setProperty('options',$options);
+
+		return $model->field($field)->select();
+	}
 
     /* Cookie 语言切换*/
     public function changeLanguage()

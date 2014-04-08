@@ -1,0 +1,339 @@
+[ 2014-04-08T14:21:57+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:22:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.001215s ]
+
+[ 2014-04-08T14:22:24+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000111s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.003303s ]
+
+[ 2014-04-08T14:22:27+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000185s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002476s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.002812s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.000574s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1396938147,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.002351s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.002163s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.002009s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1396938147,'dz5362在2014-04-08 14:22登录了后台') [ RunTime:0.001600s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000247s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/GIT/Test/Application/Common/Common/function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/GIT/Test/Application/Common/Common/function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1396851747 ) LIMIT 1   [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001135s ]
+SQL: UPDATE `db_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.000278s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1396938147,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000188s ]
+
+[ 2014-04-08T14:22:27+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:27+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000086s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003307s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001140s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000391s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000318s ]
+
+[ 2014-04-08T14:22:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:29+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.003109s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001042s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000440s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000367s ]
+
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:31+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:39+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:39+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:42+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002713s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001084s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000448s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000307s ]
+
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:22:43+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:23:22+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Config/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001779s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002908s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001076s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000447s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000367s ]
+
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:32:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:32:39+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Menu/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000087s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.018485s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001350s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000425s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000203s ]
+SQL: SELECT DISTINCT  `group` FROM `db_menu` WHERE ( pid = 68 )  [ RunTime:0.000285s ]
+SQL: SELECT `id`,`url` FROM `db_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000257s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000593s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000404s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000337s ]
+
+[ 2014-04-08T14:32:57+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Menu/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000115s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002904s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001061s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000418s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.000320s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000184s ]
+SQL: SELECT DISTINCT  `group` FROM `db_menu` WHERE ( pid = 68 )  [ RunTime:0.000275s ]
+SQL: SELECT `id`,`url` FROM `db_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000263s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000326s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000334s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000316s ]
+SQL: INSERT INTO `db_menu` (`title`,`sort`,`url`,`pid`,`group`,`hide`,`is_dev`,`tip`,`id`) VALUES ('账户',0,'Account/MsgLogs',0,'',0,0,'',0) [ RunTime:0.000242s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001025s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001032s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',130,1396938777,'操作url：/git/Test/index.php/Admin/Menu/add.html') [ RunTime:0.000267s ]
+
+[ 2014-04-08T14:33:00+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/MsgLogs.html
+ERR: 非法操作:MsgLogs
+
+[ 2014-04-08T14:36:11+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Menu/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000092s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002311s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003305s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001264s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000570s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.000226s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000219s ]
+SQL: SELECT DISTINCT  `group` FROM `db_menu` WHERE ( pid = 68 )  [ RunTime:0.000279s ]
+SQL: SELECT `id`,`url` FROM `db_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000251s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000445s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000347s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000324s ]
+SQL: INSERT INTO `db_menu` (`title`,`sort`,`url`,`pid`,`group`,`hide`,`is_dev`,`tip`,`id`) VALUES ('MsgLogsList',0,'Account/MsgLogs',130,'',0,0,'',0) [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001181s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001127s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',131,1396938971,'操作url：/git/Test/index.php/Admin/Menu/add.html') [ RunTime:0.000292s ]
+
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-08T14:36:19+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-08T14:36:41+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Menu/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000166s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002834s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003033s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001379s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000502s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Menu/edit%' ) LIMIT 1   [ RunTime:0.000431s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=98 ) LIMIT 1   [ RunTime:0.000268s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000218s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000210s ]
+SQL: SELECT DISTINCT  `group` FROM `db_menu` WHERE ( pid = 68 )  [ RunTime:0.000299s ]
+SQL: SELECT `id`,`url` FROM `db_menu` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000324s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '系统设置' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000450s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000409s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu` WHERE ( `group` = '数据备份' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000537s ]
+SQL: UPDATE `db_menu` SET `title`='MsgLogsList',`sort`=0,`url`='Account/MsgLogs',`pid`=130,`group`='账户信息',`hide`=0,`is_dev`=0,`tip`='' WHERE ( `id` = 131 ) [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001278s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001056s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',131,1396939001,'操作url：/git/Test/index.php/Admin/Menu/edit.html') [ RunTime:0.000309s ]
+
+[ 2014-04-08T15:53:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T15:53:26+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-08T15:53:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-08T15:53:28+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}

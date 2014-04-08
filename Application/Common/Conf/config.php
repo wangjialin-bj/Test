@@ -77,12 +77,12 @@ return array(
     'LOG_RECORD' => true, // 开启日志记录
     'LOG_LEVEL'  =>'EMERG,ALERT,CRIT,ERR', // 只记录EMERG ALERT CRIT ERR 错误
 
-    'DB_CONFIG1' => array(
+    'DB_CONFIG_TATOR_LOGS' => array(
         'db_type'  => 'mysqli',
         'db_user'  => 'root',
         'db_pwd'   => '687091',
-        'db_host'  => 'localhost',
+        'db_host'  => '127.0.0.1',
         'db_port'  => '3306',
-        'db_name'  => ''
+        'db_name'  => 'tator_logs',
     ),
 );
