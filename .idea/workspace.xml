@@ -26,7 +26,7 @@
       <file leaf-file-name="AccountController.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AccountController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2034" selection-end="2034" vertical-scroll-proportion="0.81320226" vertical-offset="656" max-vertical-offset="1444">
+            <state line="18" column="29" selection-start="665" selection-end="665" vertical-scroll-proportion="0.14606741" vertical-offset="238" max-vertical-offset="1444">
               <folding>
                 <element signature="e#6#80#0" expanded="true" />
               </folding>
@@ -421,7 +421,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AccountController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2034" selection-end="2034" vertical-scroll-proportion="0.81320226" vertical-offset="656" max-vertical-offset="1444">
+        <state line="18" column="29" selection-start="665" selection-end="665" vertical-scroll-proportion="0.14606741" vertical-offset="238" max-vertical-offset="1444">
           <folding>
             <element signature="e#6#80#0" expanded="true" />
           </folding>
