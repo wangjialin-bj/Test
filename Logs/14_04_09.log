@@ -1,0 +1,468 @@
+[ 2014-04-09T10:26:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000121s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002189s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.003568s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.002960s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.003217s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1397010360,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.002816s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.002304s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.002126s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1397010360,'dz5362在2014-04-09 10:26登录了后台') [ RunTime:0.001340s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000258s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/git/test/Application/Common/Common/function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/git/test/Application/Common/Common/function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1396923960 ) LIMIT 1   [ RunTime:0.001946s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1397010360,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000303s ]
+
+[ 2014-04-09T10:26:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-09T10:26:01+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-09T10:30:48+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002721s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001065s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000407s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000295s ]
+
+[ 2014-04-09T10:30:49+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000117s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001933s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001225s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000376s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000312s ]
+
+[ 2014-04-09T10:31:16+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000086s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002831s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001450s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000444s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000328s ]
+
+[ 2014-04-09T10:33:02+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002817s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001167s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000395s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000302s ]
+
+[ 2014-04-09T10:34:17+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000092s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002052s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.000947s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000388s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000303s ]
+
+[ 2014-04-09T10:35:02+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000090s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002223s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.003261s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001072s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000457s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000375s ]
+
+[ 2014-04-09T10:35:05+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000092s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002146s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002854s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001175s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000389s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000282s ]
+
+[ 2014-04-09T10:35:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Menu/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000091s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.018162s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.011896s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000550s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.000384s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.000208s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000265s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000245s ]
+SQL: SELECT DISTINCT  `group` FROM `db_menu_en` WHERE ( pid = 68 )  [ RunTime:0.000408s ]
+SQL: SELECT `id`,`url` FROM `db_menu_en` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000387s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = 'system settings' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000397s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000351s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = 'Data Backup' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000441s ]
+SQL: INSERT INTO `db_menu_en` (`title`,`sort`,`url`,`pid`,`group`,`hide`,`is_dev`,`tip`,`id`) VALUES ('Account',0,'Account/MsgLogs',0,'Account Management',0,0,'',0) [ RunTime:0.000332s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001272s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001326s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',129,1397010933,'操作url：/git/Test/index.php/Admin/Menu/add.html') [ RunTime:0.000327s ]
+
+[ 2014-04-09T10:36:09+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Menu/edit.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000094s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001297s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001105s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000424s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Menu/edit%' ) LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=98 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000204s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SELECT DISTINCT  `group` FROM `db_menu_en` WHERE ( pid = 68 )  [ RunTime:0.000292s ]
+SQL: SELECT `id`,`url` FROM `db_menu_en` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000282s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = 'system settings' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000337s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000349s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = 'Data Backup' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000500s ]
+SQL: UPDATE `db_menu_en` SET `title`='Account',`sort`=0,`url`='Account/MsgLogs',`pid`=0,`group`='',`hide`=0,`is_dev`=0,`tip`='' WHERE ( `id` = 129 ) [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001166s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001309s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',129,1397010969,'操作url：/git/Test/index.php/Admin/Menu/edit.html') [ RunTime:0.000256s ]
+
+[ 2014-04-09T10:36:33+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Menu/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002925s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001020s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000386s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Menu/add%' ) LIMIT 1   [ RunTime:0.000342s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=96 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=75 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `id`,`pid`,`title` FROM `db_menu_en` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.000248s ]
+SQL: SELECT DISTINCT  `group` FROM `db_menu_en` WHERE ( pid = 68 )  [ RunTime:0.000346s ]
+SQL: SELECT `id`,`url` FROM `db_menu_en` WHERE ( `pid` = 68 ) AND ( `hide` = 0 )  [ RunTime:0.000291s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = 'system settings' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000413s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = '' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000367s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `db_menu_en` WHERE ( `group` = 'Data Backup' ) AND ( `pid` = 68 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000365s ]
+SQL: INSERT INTO `db_menu_en` (`title`,`sort`,`url`,`pid`,`group`,`hide`,`is_dev`,`tip`,`id`) VALUES ('MsgLogslist',0,'Account/MsgLogs',129,'Account Management',0,0,'',0) [ RunTime:0.000224s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001164s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'update_menu' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001397s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (10,1,2130706433,'Menu',130,1397010993,'操作url：/git/Test/index.php/Admin/Menu/add.html') [ RunTime:0.000311s ]
+
+[ 2014-04-09T10:36:38+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000093s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002095s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.003131s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001075s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000464s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000380s ]
+
+[ 2014-04-09T10:36:40+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000129s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.003014s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001071s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000426s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000305s ]
+
+[ 2014-04-09T10:36:41+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.002794s ]
+SQL: SHOW COLUMNS FROM `db_menu_en` [ RunTime:0.001072s ]
+SQL: SELECT * FROM `db_menu_en` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000462s ]
+SQL: SELECT `id` FROM `db_menu_en` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000330s ]
+
+[ 2014-04-09T10:37:22+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Account/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000082s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001903s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002917s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001312s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000447s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000326s ]
+
+[ 2014-04-09T13:42:19+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:42:25+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:43:59+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:44:36+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:44:58+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:45:57+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:46:10+08:00 ] 127.0.0.1 /git/Test/index.php?s=/Home/Index/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000096s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003210s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.001997s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config` WHERE ( `status` = 1 )  [ RunTime:0.000410s ]
+
+[ 2014-04-09T13:46:10+08:00 ] 127.0.0.1 /git/Test/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:46:12+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:46:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000093s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002970s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002961s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.001641s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.000747s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1397022388,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001889s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000654s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1397022388,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.001324s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.001533s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1397022388,'dz5362在2014-04-09 13:46登录了后台') [ RunTime:0.001801s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000422s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/git/test/Application/Common/Common/function.php 第 665 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/git/test/Application/Common/Common/function.php 第 665 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1396935988 ) LIMIT 1   [ RunTime:0.002705s ]
+
+[ 2014-04-09T13:46:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:47:38+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:48:01+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:48:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:48:30+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:48:57+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:49:56+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:50:02+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:50:11+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:50:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:51:37+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:51:45+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:52:54+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:53:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:53:46+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:54:08+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:54:20+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:54:32+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:54:38+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:55:01+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:55:10+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:55:33+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:55:45+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:57:50+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:58:21+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:58:33+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:58:35+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:58:40+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:58:55+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T13:59:32+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:00:25+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:02:14+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:04:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:04:50+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:05:00+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:05:52+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:06:18+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:06:30+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:06:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:06:51+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:07:07+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:07:18+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:07:25+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:07:37+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:08:37+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:09:07+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:09:48+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:09:52+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:10:16+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:10:22+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:11:05+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:12:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:14:43+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:15:41+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:18:01+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:18:30+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:19:33+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:19:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:20:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:21:00+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:21:12+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:23:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:24:19+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:25:23+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:27:03+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:27:40+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:28:34+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:29:02+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:29:10+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:29:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:29:34+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:30:44+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:30:58+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:31:24+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:31:34+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:32:02+08:00 ] 192.168.5.120 /git/test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:32:27+08:00 ] 192.168.5.120 /git/test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:33:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:33:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/help.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:33:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Article/index/category/blog.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:33:29+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/help.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:33:29+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:33:31+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:34:11+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:34:25+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:34:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-09T14:35:20+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.php?s=/Home/Index/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000104s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001796s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002868s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000373s ]
+
+[ 2014-04-09T14:35:20+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}

@@ -4,7 +4,7 @@ body {
   padding-top: 50px; /* Account for fixed navbar */
 }
 
-.footer{color:#999;text-align:center;padding:30px 0;margin-top:70px;border-top:1px solid #e5e5e5;background-color:#f5f5f5}
+.footer{color:#999;text-align:center;padding:30px 0;margin-top:20px;border-top:1px solid #e5e5e5;background-color:#f5f5f5}
 
 /*自定nav 样式*/
 .bs-docs-nav {
@@ -58,5 +58,17 @@ body {
 .mytable tr th{text-align: center;}
 .table_tbody tr td{line-height: 30px;text-align: center;}
 
+.index_img{background: url('../../images/test.jpg') no-repeat;min-height: 300px;}
+.index_content{min-height: 300px;color:#fff;}
+.index_content p{font-size:16px;}
+.index_division{height:30px;}
 
+.color_1{background-color:#3399FF;}
+.color_2{background-color:#669966;}
+.color_3{background-color:#3399FF;}
+.color_4{background-color:#669966;}
+
+.index_footer_nav{background-color: #ddd;}
+.index_footer_li{margin-left: 210px;}
+.index_footer_li li{width:200px;font-size: 16px;}
 
