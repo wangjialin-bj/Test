@@ -16,6 +16,9 @@ use User\Api\UserApi;
  */
 class AccountController extends AdminController {
 
+	/*
+	 * 普通用户求助信息列表
+	 * */
 	public function msglogs()
 	{
 		$REQUEST    =   (array)I('request.');
@@ -37,14 +40,22 @@ class AccountController extends AdminController {
 
 		$msgLogs = D('MsgLogs');
 
-		$fields = 'sum(msg_price) as msg_price_all , sum(profit) as profit_all , reply_id , tid , reply_date , max(reply_date) as end_time , min(reply_date) as start_time';
-
-		$total = count($msgLogs->field($fields)->where($maps)->group('reply_id')->select());
+		/*查询条件*/
+		$fields_arr = array(
+			'reply_id',
+			'tid',
+			'reply_date',
+			'sum(msg_price)' => 'msg_price_all',
+			'sum(profit)' => 'profit_all',
+			'max(reply_date)' => 'end_time',
+			'min(reply_date)' => 'start_time'
+		);
+		$total = count($msgLogs->field($fields_arr)->where($maps)->group('reply_id')->select());
 
 		if( isset($REQUEST['r']) ){
 			$listRows = (int)$REQUEST['r'];
 		}else{
-			$listRows = C('LIST_ROWS') > 0 ? 2 : 10;
+			$listRows = C('LIST_ROWS') > 0 ? C('LIST_ROWS') : 10;
 		}
 
 		$page = new \Think\Page($total, $listRows, $REQUEST);
@@ -57,7 +68,7 @@ class AccountController extends AdminController {
 		$this->assign('_total',$total);
 		$limit_str = $page->firstRow.','.$page->listRows;
 
-		$list = $msgLogs->field($fields)->where($maps)->group('reply_id')->limit($limit_str)->order()->select();
+		$list = $msgLogs->field($fields_arr)->where($maps)->group('reply_id')->limit($limit_str)->order()->select();
 
 		foreach($list as $key=>$val)
 		{
