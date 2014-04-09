@@ -195,4 +195,9 @@ class UserController extends HomeController {
         }
     }
 
+	public function usercenter()
+	{
+		$this->display();
+	}
+
 }
