@@ -623,5 +623,7 @@ return array(
 
     'L_VIEW_TITLE_1'                    => "我的文档",
     'L_VIEW_TITLE_2'                    => "我的文档",
+
+	'L_BTN_ADVANCE'					=> "高级搜索",
  );
 ?>

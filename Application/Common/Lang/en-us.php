@@ -609,5 +609,14 @@ return array(
 
     'L_BTN_ADVANCE'                => 'Advance',
     'L_BTN_USER_CENTER'                => 'User Home',
+
+	'L_SEARCH_START_TIME'          => "The start time",
+	'L_SEARCH_END_TIME'          => "The end time",
+	'L_SEARCH_CREATE_TIME'          => "Search Time：",
+
+	'L_VIEW_TITLE_1'                    => "My document",
+	'L_VIEW_TITLE_2'                    => "My document",
+
+	'L_BTN_ADVANCE'					=> "Search Advance",
 );
 ?>
