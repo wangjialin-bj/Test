@@ -27,9 +27,9 @@
                 <a href="{:U('Home/User/index')}">
                 <i class="icon-home"></i> {:L('L_USER_CENTER')}</a>
             </li>
-            <li class="<if condition='$guide eq "message"'>active</if>">
-                <a class="dropdown-toggle" href="{:U('/Home/Message')}"><i class="icon-envelope"></i> {:L("L_USER_MESSAGE")}&nbsp;&nbsp;<span id="message_number" class='badge badge-info msg_num <if condition="!getUnReadMessageCount(0)">hide</if>'>{:getUnReadMessageCount(0)}</span></a>
-            </li>
+            <!--<li class="<if condition='$guide eq "message"'>active</if>">-->
+                <!--<a class="dropdown-toggle" href="{:U('/Home/Message')}"><i class="icon-envelope"></i> {:L("L_USER_MESSAGE")}&nbsp;&nbsp;<span id="message_number" class='badge badge-info msg_num <if condition="!getUnReadMessageCount(0)">hide</if>'>{:getUnReadMessageCount(0)}</span></a>-->
+            <!--</li>-->
             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{:get_username()}<b class="caret"></b> </a>
                 <ul class="dropdown-menu">
                     <li> <a href="{:U('User/profile')}"> <i class="icon-cog"></i> 修改密码 </a> </li>
@@ -39,7 +39,7 @@
                 </ul>
             </li>
         <else/> 
-            <li><a href="{:U('User/Register')}">注册</a></li>
+            <!--<li><a href="{:U('User/Register')}">注册</a></li>-->
             <li class=""><a href="{:U('User/login')}">登录</a></li>
         </if>
       </ul>
