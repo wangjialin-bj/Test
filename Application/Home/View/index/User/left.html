@@ -1,0 +1,25 @@
+<div class="bs-sidebar hidden-print affix-top" role="complementary">
+    <ul class="nav">
+        <li <if condition="$guide eq 'paymentAccount'">class="active"</if> >
+            <a href="{:U('User/paymentAccount')}" >Payment Account</a>
+        </li>
+        <li <if condition="$guide eq 'paymentHistory'">class="active"</if> >
+            <a href="{:U('User/paymentHistory')}">Payment History</a>
+        </li>
+        <li <if condition="$guide eq 'depositHistory'">class="active"</if>>
+            <a href="{:U('User/depositHistory')}">Deposit History</a>
+        </li>
+    </ul>
+    <br>
+    <ul class="nav">
+        <li <if condition="$guide eq 'incomeAccount'">class="active"</if> >
+            <a href="{:U('User/incomeAccount')}">Income Account</a>
+        </li>
+        <li <if condition="$guide eq 'incomeHistory'">class="active"</if> >
+            <a href="{:U('User/incomeHistory')}">Income History</a>
+        </li>
+        <li <if condition="$guide eq 'withdrawsHistory'">class="active"</if>>
+            <a href="{:U('User/withdrawsHistory')}">Withdraws History</a>
+        </li>
+    </ul>
+</div>

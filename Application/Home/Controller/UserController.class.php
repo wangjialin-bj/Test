@@ -195,8 +195,59 @@ class UserController extends HomeController {
         }
     }
 
-	public function usercenter()
+	/*
+	 * 用户账户余额
+	 * */
+	public function paymentAccount()
 	{
+		$this->checkUserLogin();
+		//用户状态 0 tator 1 user
+		$user_type = 1;
+		$userModel = $user_type ? D('TransUsers') : D('Users');
+
+		$this->assign('guide' , 'paymentAccount');
+		$this->display();
+	}
+
+	public function depoist()
+	{
+		$this->checkUserLogin();
+
+		$this->assign('guide' , 'paymentAccount');
+		$this->display();
+	}
+
+	public function depositHistory()
+	{
+		$this->checkUserLogin();
+		$this->assign('guide' , 'depositHistory');
+		$this->display();
+	}
+
+	public function paymentHistory()
+	{
+		$this->checkUserLogin();
+		$this->assign('guide' , 'paymentHistory');
+		$this->display();
+	}
+
+	public function incomeAccount()
+	{
+		$this->assign('guide' , 'incomeAccount');
+		$this->display();
+	}
+
+	public function incomeHistory()
+	{
+		$this->checkUserLogin();
+		$this->assign('guide' , 'incomeHistory');
+		$this->display();
+	}
+
+	public function withdrawsHistory()
+	{
+		$this->checkUserLogin();
+		$this->assign('guide' , 'withdrawsHistory');
 		$this->display();
 	}
 
