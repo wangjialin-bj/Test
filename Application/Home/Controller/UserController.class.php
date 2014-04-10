@@ -80,7 +80,7 @@ class UserController extends HomeController {
 		if(IS_POST){ //登录验证
 			/* 检测验证码 */
 			if(!check_verify($verify)){
-				$this->error('验证码输入错误！');
+				$this->error('Captcha input error!');
 			}
 
 			$uid = intval($this->checklogin($username, $password));
@@ -88,16 +88,16 @@ class UserController extends HomeController {
 				if($this->checkLogin($uid)){ //登录用户
 					//TODO:跳转到登录前页面
 					// $this->success('登录成功！',U('Home/Index/index'));
-					$this->success("登录成功！",U('Home'),3);
+					$this->success("Login successful!",U('User/paymentAccount'),3);
 				} else {
 					$this->error();
 				}
 
 			} else { //登录失败
 				switch($uid) {
-					case -1: $error = '用户不存在或被禁用！'; break; //系统级别禁用
-					case -2: $error = '密码错误！'; break;
-					default: $error = '未知错误！'; break; // 0-接口参数错误（调试阶段使用）
+					case -1: $error = 'The user does not exist or is disabled.'; break; //系统级别禁用
+					case -2: $error = 'Password error!'; break;
+					default: $error = 'Unknown error!'; break; // 0-接口参数错误（调试阶段使用）
 				}
 				$this->error($error);
 			}
@@ -255,24 +255,98 @@ class UserController extends HomeController {
 	public function depositHistory()
 	{
 		$this->checkUserLogin();
-		$uid = 1262;//uid
+		$uid = intval(UID);//uid
 		$row = 10;
 		$rechargeModel = D('RechargeLog');
 		$field_arr = array('id' , 'uid' , 'payment_date' , 'mc_gross');
 		$where = array('uid' => $uid);
+
+		if(I('get.export') == 1)
+		{
+			$time = date('YmdHis').mt_rand(10000,99999);
+			header("Content-type:application/vnd.ms-excel");
+			$file_name = $time . 'Exploder.csv';
+			header(file_name($file_name));
+			//数据处理
+			$str = "Date,Amount\n";
+			$result = $rechargeModel->field($field_arr)->where($where)->limit('0,2000')->order('payment_date desc')->select();
+			foreach($result as $key=>$val)
+			{
+				$date_str = strtotime($val['payment_date']);
+				$str .=  date('m-d-Y' , $date_str) . "," . $val['mc_gross'] ."\n";
+			}
+			echo $str;
+			die;
+		}
+
 		$count = $rechargeModel->where($where)->count();
 		$Page       = new \Think\Page($count,$row);
 		$result = $rechargeModel->field($field_arr)->where($where)->limit($Page->firstRow.','.$Page->listRows)->order('payment_date desc')->select();
 		$show       = $Page->show();
+		foreach($result as $key=>$val)
+		{
+			$date_arr = explode(' ' , $val['payment_date']);
+			$date_str = strtotime($val['payment_date']);
+			$result[$key]['payment_date'] = date('m-d-Y' , $date_str);
+		}
 		$this->assign('page' , $show);
 		$this->assign('data' , $result);
 		$this->assign('guide' , 'depositHistory');
 		$this->display();
 	}
 
+	/*
+	 * 用户交易记录
+	 * */
 	public function paymentHistory()
 	{
 		$this->checkUserLogin();
+		$row = 10;
+		$msglogsModel = D('MsgLogs');
+		$maps['helper_id'] = intval(UID);
+		$maps['reply_id'] = array('gt' , 0);
+		$field_arr = array('reply_id' , 'msg_price' , 'reply_date' , 'profit');
+		$count = $msglogsModel->field($field_arr)->where($maps)->count();
+
+
+		if(I('get.export') == 1)
+		{
+			$time = date('YmdHis').mt_rand(10000,99999);
+			header("Content-type:application/vnd.ms-excel");
+			$file_name = $time . 'Exploder.csv';
+			header(file_name($file_name));
+			//数据处理
+			$str = "Date,Time,Translator,Amount\n";
+			$result = $msglogsModel->field($field_arr)->where($maps)->limit('0 , 2000')->order('reply_date desc')->select();
+			foreach($result as $key=>$val)
+			{
+				$date_arr = strtotime($val['reply_date']);
+				$result[$key]['ymd'] = date('m-d-Y',$date_arr);
+				$result[$key]['his'] = date('H:i:s_A',$date_arr);
+				$result[$key]['price'] =(float)$val['msg_price']  -  ($val['profit'] != null ? (float)$val['profit'] : (float)'0.00');
+
+				$str .= $result[$key]['ymd'] . ",". $result[$key]['his'] .",ID:".$result[$key]['reply_id'] .",".$result[$key]['price'] ."\n";
+			}
+			echo $str;
+			die;
+		}
+
+
+		$Page       = new \Think\Page($count,$row);
+		$result = $msglogsModel->field($field_arr)->where($maps)->limit($Page->firstRow.','.$Page->listRows)->order('reply_date desc')->select();
+		$show       = $Page->show();
+		$this->assign('page' , $show);
+
+		foreach($result as $key=>$val)
+		{
+			$date_arr = strtotime($val['reply_date']);
+			$result[$key]['ymd'] = date('m-d-Y',$date_arr);
+			$result[$key]['his'] = date('H:i:s A',$date_arr);
+			$result[$key]['price'] =(float)$val['msg_price']  -  ($val['profit'] != null ? (float)$val['profit'] : (float)'0.00');
+		}
+
+
+		$this->assign('data' , $result);
 		$this->assign('guide' , 'paymentHistory');
 		$this->display();
 	}
@@ -290,6 +364,53 @@ class UserController extends HomeController {
 	{
 		$this->checkUserLogin();
 		$user_type = get_usertype();
+		if($user_type == 1)
+		{
+			$row = 10;
+			$msglogsModel = D('MsgLogs');
+			$maps['reply_id'] = intval(UID);
+			$maps['helper_id'] = array('gt' , 0);
+			$field_arr = array('helper_id' , 'msg_price' , 'reply_date' , 'profit');
+			$count = $msglogsModel->field($field_arr)->where($maps)->count();
+
+			if(I('get.export') == 1)
+			{
+				$time = date('YmdHis').mt_rand(10000,99999);
+				header("Content-type:application/vnd.ms-excel");
+				$file_name = $time . 'Exploder.csv';
+				header(file_name($file_name));
+				//数据处理
+				$str = "Date,Time,Requester,Amount\n";
+				$result = $msglogsModel->field($field_arr)->where($maps)->limit('0 , 2000')->order('reply_date desc')->select();
+				foreach($result as $key=>$val)
+				{
+					$date_arr = strtotime($val['reply_date']);
+					$result[$key]['ymd'] = date('m-d-Y',$date_arr);
+					$result[$key]['his'] = date('H:i:s_A',$date_arr);
+					$result[$key]['price'] =(float)$val['msg_price']  -  ($val['profit'] != null ? (float)$val['profit'] : (float)'0.00');
+
+					$str .= $result[$key]['ymd'] . ",". $result[$key]['his'] .",ID:".$result[$key]['helper_id'] .",".$result[$key]['price'] ."\n";
+				}
+				echo $str;
+				die;
+			}
+
+			$Page       = new \Think\Page($count,$row);
+			$result = $msglogsModel->field($field_arr)->where($maps)->limit($Page->firstRow.','.$Page->listRows)->order('reply_date desc')->select();
+			$show       = $Page->show();
+			$this->assign('page' , $show);
+
+			foreach($result as $key=>$val)
+			{
+				$date_arr = strtotime($val['reply_date']);
+				$result[$key]['ymd'] = date('m-d-Y',$date_arr);
+				$result[$key]['his'] = date('H:i:s A',$date_arr);
+				$result[$key]['price'] =(float)$val['msg_price']  -  ($val['profit'] != null ? (float)$val['profit'] : (float)'0.00');
+			}
+
+			$this->assign('data' , $result);
+		}
+
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'incomeHistory');
 		$this->display();

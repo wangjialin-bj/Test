@@ -11,80 +11,36 @@
             <include file="User/left"/>
         </div>
         <div class="col-md-9">
-            <table class="table table-bordered">
+            <table class="table table-bordered" style="text-align: center;">
                 <thead>
                 <tr class="active">
-                    <th>Date (dd-mm-yyyy)</th>
-                    <th>Time</th>
-                    <th>Translator</th>
-                    <th>Amount</th>
+                    <th><center>Date (dd-mm-yyyy)</center></th>
+                    <th><center>Time</center></th>
+                    <th><center>Translator</center></th>
+                    <th><center>Amount</center></th>
                 </tr>
                 </thead>
                 <tbody>
+                <volist name="data" id="vo">
                     <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td>{$vo.ymd}</td>
+                        <td>{$vo.his}</td>
+                        <td>ID:{$vo.reply_id}</td>
+                        <td>US$ {$vo.price}</td>
                     </tr>
+                </volist>
+                <if condition="empty($data)" >
                     <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
+                        <td colspan="4" style="text-align: center;">Empty</td>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                        <td>Column content</td>
-                    </tr>
+                </if>
                 </tbody>
             </table>
-            <div class="page"></div>
-            <div class=""><a href="" class="btn btn-success">Print</a></div>
+            <div class="page" style="text-align: right;">
+                <ul class="pagination">{$page}</ul>
+            </div>
+            <a href="{:U('User/paymentHistory' , array('export'=>1))}" class="btn btn-success" style="margin-left:350px;">Print</a>
+
         </div>
     </div>
 </block>

@@ -9,7 +9,7 @@ body {
 /*自定nav 样式*/
 .bs-docs-nav {
   text-shadow: 0 -1px 0 rgba(0,0,0,.15);
-  background-color: #563d7c;
+  background-color: #333333;
   border-color: #463265;
   box-shadow: 0 1px 0 rgba(255,255,255,.1);
 }
@@ -20,7 +20,7 @@ body {
   color: #fff;
 }
 .bs-docs-nav .navbar-nav > li > a {
-  color: #cdbfe3;
+  color: #ffffff;
 }
 .bs-docs-nav .navbar-nav > li > a:hover {
   color: #fff;
@@ -59,14 +59,14 @@ body {
     display: block;
     color: #ffffff;
     padding: 10px 20px;
-    background: #463265;
+    background: #666666;
     border-bottom: 2px solid #DDDCDC;
     font-size: 16px;
 }
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
     text-decoration: none;
-    background-color: #463265;
+    background-color: #666688;
     color:#ffff00;
     border-right: 1px solid #dbd8e0;
 }
@@ -75,7 +75,7 @@ body {
 .bs-sidebar .nav > .active:focus > a {
     font-weight: bold;
     color:#ffff00;
-    background-color: #463265;
+    background-color: #666666;
     border-right: 1px solid #563d7c;
 }
 
