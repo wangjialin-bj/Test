@@ -21,16 +21,6 @@ class UserController extends HomeController {
         parent::_initialize();
         $this->assign('guide' , 'usercenter');
     }
-	/* 用户中心首页 */
-	public function index(){
-		$User = new UserApi;
-		$user_auth = I('session.onethink_home');
-		$UserInfo = $User->info($user_auth['user_auth']['uid']);
-
-		$this->assign('types' , I('get.type' , 'index'));
-		$this->assign('userinfo' , $UserInfo);
-		$this->display();
-	}
 
 	/* 注册页面 */
 	public function register($username = '', $password = '', $repassword = '', $email = '', $mobile = '', $verify = ''){
@@ -93,18 +83,14 @@ class UserController extends HomeController {
 				$this->error('验证码输入错误！');
 			}
 
-			/* 调用UC登录接口登录 */
-			$user = new UserApi;
-			$uid = $user->login($username, $password);
-			if(0 < $uid){ //UC登录成功
-				/* 登录用户 */
-				$Member = D('Member');
-				if($Member->login($uid)){ //登录用户
+			$uid = intval($this->checklogin($username, $password));
+			if(0 < $uid){
+				if($this->checkLogin($uid)){ //登录用户
 					//TODO:跳转到登录前页面
 					// $this->success('登录成功！',U('Home/Index/index'));
 					$this->success("登录成功！",U('Home'),3);
 				} else {
-					$this->error($Member->getError());
+					$this->error();
 				}
 
 			} else { //登录失败
@@ -118,6 +104,40 @@ class UserController extends HomeController {
 
 		} else { //显示登录表单
 			$this->display();
+		}
+	}
+
+	public function checkLogin($username , $password)
+	{
+		$userModel = D('Users');
+		$map['email'] = trim($username);
+		get_username();
+		$user = $userModel->where($map)->find();
+		if(is_array($user)){
+			/* 验证用户密码 */
+			if(md5($password) === $user['password']){
+				$data = array(
+					'id'              => $user['id'],
+					'last_login_date' => date('y-m-d H:i:s' , time()),
+					'last_login_ip'   => get_client_ip(0),
+				);
+				$userModel->where('id='.$user['id'])->save($data);
+				//写入session
+				$auth = array(
+					'uid'             => $user['id'],
+					'email'        => ($user['email']),
+					'is_translator'   => $user['is_translator'],
+					'last_login_date' => $user['last_login_date'],
+				);
+
+				session('user_auth', $auth);
+				session('user_auth_sign', data_auth_sign($auth));
+				return $user['id']; //登录成功，返回用户ID
+			} else {
+				return -2; //密码错误
+			}
+		} else {
+			return -1; //用户不存在或被禁用
 		}
 	}
 
@@ -204,12 +224,22 @@ class UserController extends HomeController {
 		//用户状态 0 tator 1 user
 		$user_type = 1;
 		$userModel = $user_type ? D('TransUsers') : D('Users');
-
+		$result = $userModel->field('id , money')->find('0000001262');
+		if(!$result)
+		{
+			$this->redirect('Home/Index');
+		}
+		$result['id'] = (int)($result['id']);
+		$result['money'] = (float)($result['money']);
+		$this->assign('data' , $result);
 		$this->assign('guide' , 'paymentAccount');
 		$this->display();
 	}
 
-	public function depoist()
+	/*
+	 * 用户充值处理 paypal
+	 * */
+	public function deposit()
 	{
 		$this->checkUserLogin();
 
@@ -217,9 +247,23 @@ class UserController extends HomeController {
 		$this->display();
 	}
 
+	/*
+	 * 用户充值记录
+	 * */
 	public function depositHistory()
 	{
 		$this->checkUserLogin();
+		$uid = 1262;//uid
+		$row = 10;
+		$rechargeModel = D('RechargeLog');
+		$field_arr = array('id' , 'uid' , 'payment_date' , 'mc_gross');
+		$where = array('uid' => $uid);
+		$count = $rechargeModel->where($where)->count();
+		$Page       = new \Think\Page($count,$row);
+		$result = $rechargeModel->field($field_arr)->where($where)->limit($Page->firstRow.','.$Page->listRows)->order('payment_date desc')->select();
+		$show       = $Page->show();
+		$this->assign('page' , $show);
+		$this->assign('data' , $result);
 		$this->assign('guide' , 'depositHistory');
 		$this->display();
 	}
@@ -233,6 +277,9 @@ class UserController extends HomeController {
 
 	public function incomeAccount()
 	{
+		$this->checkUserLogin();
+		$user_type = 0;
+		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'incomeAccount');
 		$this->display();
 	}
@@ -240,6 +287,8 @@ class UserController extends HomeController {
 	public function incomeHistory()
 	{
 		$this->checkUserLogin();
+		$user_type = 0;
+		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'incomeHistory');
 		$this->display();
 	}
@@ -247,6 +296,8 @@ class UserController extends HomeController {
 	public function withdrawsHistory()
 	{
 		$this->checkUserLogin();
+		$user_type = 0;
+		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'withdrawsHistory');
 		$this->display();
 	}

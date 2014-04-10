@@ -30,7 +30,7 @@
             <!--<li class="<if condition='$guide eq "message"'>active</if>">-->
                 <!--<a class="dropdown-toggle" href="{:U('/Home/Message')}"><i class="icon-envelope"></i> {:L("L_USER_MESSAGE")}&nbsp;&nbsp;<span id="message_number" class='badge badge-info msg_num <if condition="!getUnReadMessageCount(0)">hide</if>'>{:getUnReadMessageCount(0)}</span></a>-->
             <!--</li>-->
-            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{:get_username()}<b class="caret"></b> </a>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">{:get_useremail()}<b class="caret"></b> </a>
                 <ul class="dropdown-menu">
                     <!--<li> <a href="{:U('User/profile')}"> <i class="icon-cog"></i> 修改密码 </a> </li>-->
                   <!--   <li> <a href="{:U('Goods/Index')}"> <i class="icon-cog"></i> 购物车 <span id="goodscart_number" class='badge badge-info msg_num'>0</span></a> </li> -->

@@ -11,7 +11,16 @@
             <include file="User/left"/>
         </div>
         <div class="col-md-9">
-            显示具体内容6
+            <if condition="$user_type eq 1">
+                TransUser
+            </if>
+
+            <if condition="$user_type eq 0">
+                <div style="padding-left:80px;padding-top:60px;font-size: 20px;">
+                    <p>This page is for translators and interpreters only.</p>
+                    <p>You need to fill the form in getPro app to apply for the translator or interpreter qualification.</p>
+                </div>
+            </if>
         </div>
     </div>
 </block>

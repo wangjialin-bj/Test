@@ -11,7 +11,27 @@
             <include file="User/left"/>
         </div>
         <div class="col-md-9">
-            显示具体内容1
+            <table class="table table-bordered">
+                <tbody>
+                <tr>
+                    <td>
+                        User Id
+                    </td>
+                    <td>
+                        {$data.id}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Balance
+                    </td>
+                    <td>
+                        US$ <font color="#9acd32">{$data.money}</font>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <a href="{:U('User/deposit')}" class="btn btn-success">Deposit</a>
         </div>
      </div>
 </block>

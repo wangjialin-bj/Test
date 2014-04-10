@@ -11,7 +11,33 @@
             <include file="User/left"/>
         </div>
         <div class="col-md-9">
-            显示具体内容3
+            <table class="table table-bordered" style="text-align: center;">
+                <thead>
+                <tr class="active">
+                    <th width="40%"><center>Date (dd-mm-yyyy)</center></th>
+                    <th><center>Amount</center></th>
+                </tr>
+                </thead>
+                <tbody>
+                <volist name="data" id="vo">
+                    <tr>
+                        <td>{$vo.payment_date}</td>
+                        <td>US$ {$vo.mc_gross}</td>
+                    </tr>
+                </volist>
+                <if condition="empty($data)" >
+                    <tr>
+                        <td colspan="2">
+                            Empty
+                        </td>
+                    </tr>
+                </if>
+                </tbody>
+            </table>
+            <div class="page" style="text-align: right;">
+                <ul class="pagination">{$page}</ul>
+            </div>
+            <a href="" class="btn btn-success" style="margin-left:350px;">Print</a>
         </div>
     </div>
 </block>

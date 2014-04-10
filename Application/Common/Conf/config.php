@@ -94,4 +94,14 @@ return array(
 		'db_port'  => '3306',
 		'db_name'  => 'tator',
 	),
+
+	'DB_CONFIG_TATOR_RECHARGE' => array(
+		'db_type'  => 'mysqli',
+		'db_user'  => 'root',
+		'db_pwd'   => '687091',
+		'db_host'  => '127.0.0.1',
+		'db_port'  => '3306',
+		'db_name'  => 'tator_recharge',
+	),
+	'PAGE_NOW_ROW' => 10,
 );

@@ -1,0 +1,26 @@
+<extend name="Base/common"/>
+<style type="text/css">
+</style>
+
+<block name="body">
+    <div class="usercenter_body">
+        <div class="col-md-12">
+            <div class="user_account_title">Deposit</div>
+        </div>
+        <div class="col-md-3">
+            <include file="User/left"/>
+        </div>
+        <div class="col-md-9">
+            <div class="payment_form">
+                <form class="form" method="post" action="{:U('User/deposit')}">
+                    <label>
+                        Amount:
+                    </label>
+                    <input type="text" value="" name="apply_number" />
+                    <span>( US$ )</span>
+                    <input type="submit" value="Checkout with Paypal" class="btn btn-success">
+                </form>
+            </div>
+        </div>
+    </div>
+</block>
