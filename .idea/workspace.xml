@@ -26,48 +26,25 @@
       <file leaf-file-name="UserController.class.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="377" column="27" selection-start="10430" selection-end="10430" vertical-scroll-proportion="-3.0" vertical-offset="6890" max-vertical-offset="8132">
+            <state line="377" column="60" selection-start="10463" selection-end="10463" vertical-scroll-proportion="-6.226415" vertical-offset="6719" max-vertical-offset="8132">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paymentHistory.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/paymentHistory.html">
+      <file leaf-file-name="footer.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="50" selection-start="598" selection-end="598" vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="988">
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#td#0;n#tr#0;n#if#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/left.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="155" selection-start="322" selection-end="322" vertical-scroll-proportion="-2.1111112" vertical-offset="0" max-vertical-offset="589">
+            <state line="37" column="7" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.7610147" vertical-offset="133" max-vertical-offset="1064">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header_old.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/header_old.html">
+      <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Public/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="0" selection-end="2626" vertical-scroll-proportion="-3.4814816" vertical-offset="267" max-vertical-offset="1007">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="62" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.66619915" vertical-offset="0" max-vertical-offset="1121">
+            <state line="11" column="99" selection-start="381" selection-end="476" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="1387">
               <folding />
             </state>
           </provider>
@@ -94,7 +71,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/static/dist/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="396" selection-end="396" vertical-scroll-proportion="-3.6538463" vertical-offset="152" max-vertical-offset="2565">
+            <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="-5.1153846" vertical-offset="0" max-vertical-offset="4066">
               <folding />
             </state>
           </provider>
@@ -139,9 +116,10 @@
         <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/incomeHistory.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/paymentHistory.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/index/User/left.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/Public/header.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/index/User/left.html" />
         <option value="$PROJECT_DIR$/Public/static/dist/css/style.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/index/Public/footer.html" />
       </list>
     </option>
   </component>
@@ -219,11 +197,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Conf" />
+              <option name="myItemId" value="Application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,138 +208,92 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,16 +356,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Reflection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="10" selection-start="1394" selection-end="1394" vertical-scroll-proportion="-2.165035" vertical-offset="2555" max-vertical-offset="32984" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Goods/goodslist.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="118" selection-end="118" vertical-scroll-proportion="0.13286713" vertical-offset="0" max-vertical-offset="2204" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GoodsController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="46" selection-start="1326" selection-end="1326" vertical-scroll-proportion="0.6785714" vertical-offset="76" max-vertical-offset="912" />
@@ -656,13 +574,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="879" selection-end="879" vertical-scroll-proportion="-10.592592" vertical-offset="132" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Common/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="181" column="9" selection-start="5277" selection-end="5277" vertical-scroll-proportion="0.34545454" vertical-offset="3040" max-vertical-offset="24415">
@@ -723,53 +634,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ChartController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="12" selection-start="937" selection-end="1294" vertical-scroll-proportion="-22.11111" vertical-offset="372" max-vertical-offset="1121">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="377" column="27" selection-start="10430" selection-end="10430" vertical-scroll-proportion="-3.0" vertical-offset="6890" max-vertical-offset="8132">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/paymentHistory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="598" selection-end="598" vertical-scroll-proportion="-11.962963" vertical-offset="0" max-vertical-offset="988">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#td#0;n#tr#0;n#if#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/left.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="155" selection-start="322" selection-end="322" vertical-scroll-proportion="-2.1111112" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/header_old.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="0" selection-end="2626" vertical-scroll-proportion="-3.4814816" vertical-offset="267" max-vertical-offset="1007">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/static/dist/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="396" selection-end="396" vertical-scroll-proportion="-3.6538463" vertical-offset="152" max-vertical-offset="2565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/incomeHistory.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="41" selection-start="581" selection-end="581" vertical-scroll-proportion="0.45301542" vertical-offset="0" max-vertical-offset="1159">
@@ -782,9 +646,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.45301542" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/paymentHistory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="14" selection-start="315" selection-end="315" vertical-scroll-proportion="0.29312763" vertical-offset="0" max-vertical-offset="988">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#if#0;n#tbody#0;n#table#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#block#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/header_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="73" selection-start="1166" selection-end="1216" vertical-scroll-proportion="0.3084239" vertical-offset="248" max-vertical-offset="1007">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="377" column="60" selection-start="10463" selection-end="10463" vertical-scroll-proportion="-6.226415" vertical-offset="6719" max-vertical-offset="8132">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="62" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.66619915" vertical-offset="0" max-vertical-offset="1121">
+        <state line="45" column="9" selection-start="33" selection-end="1869" vertical-scroll-proportion="0.84779704" vertical-offset="220" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/static/dist/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="239" selection-end="239" vertical-scroll-proportion="-5.1153846" vertical-offset="0" max-vertical-offset="4066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="26" selection-start="879" selection-end="879" vertical-scroll-proportion="-10.592592" vertical-offset="132" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/ChartController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="12" selection-start="937" selection-end="1294" vertical-scroll-proportion="-22.11111" vertical-offset="372" max-vertical-offset="1121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/default/Public/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="99" selection-start="381" selection-end="476" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="1387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="7" selection-start="1463" selection-end="1463" vertical-scroll-proportion="0.7610147" vertical-offset="133" max-vertical-offset="1064">
           <folding />
         </state>
       </provider>

@@ -1,10 +1,65 @@
 /*页面整体下调*/
 body {
   position: relative; /* For scrollyspy */
-  padding-top: 50px; /* Account for fixed navbar */
+  padding-top: 80px; /* Account for fixed navbar */
 }
 
 .footer{color:#999;text-align:center;padding:30px 0;margin-top:20px;border-top:1px solid #e5e5e5;background-color:#f5f5f5}
+
+/*自定nav 样式*/
+.ft-docs-nav {
+    margin-top: 50px;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+    background-color: #333333;
+    border-color: #463265;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1);
+    font-size:18px;
+}
+.ft-docs-nav .navbar-header
+{
+    position: relative;
+    width:150px;
+    height:50px;
+}
+.ft-docs-nav .navbar-header img
+{
+    position: relative;
+    top:-30px;
+    width:150px;
+    display: block;
+    margin-bottom: 10px;
+}
+.ft-docs-nav .navbar-brand {
+
+    color: #fff;
+}
+.ft-docs-nav .navbar-nav
+{
+    margin-left:0px;
+}
+.ft-docs-nav .navbar-nav > li
+{
+    text-align: center;
+    width:140px;
+}
+.ft-docs-nav .navbar-nav > li > a {
+    color: #ffffff;
+}
+.ft-docs-nav .navbar-nav > li > a:hover {
+    color: #fff;
+}
+.ft-docs-nav .navbar-nav > .active > a,
+.ft-docs-nav .navbar-nav > .active > a:hover {
+    color: #00ffff;
+    background: #333333;
+}
+.ft-docs-nav .navbar-toggle {
+    border-color: #563d7c;
+}
+.ft-docs-nav .navbar-toggle:hover {
+    background-color: #463265;
+    border-color: #463265;
+}
 
 /*自定nav 样式*/
 .bs-docs-nav {
@@ -12,12 +67,36 @@ body {
   background-color: #333333;
   border-color: #463265;
   box-shadow: 0 1px 0 rgba(255,255,255,.1);
+  height:80px;
+  font-size:18px;
 }
 .bs-docs-nav .navbar-collapse {
   border-color: #463265;
 }
 .bs-docs-nav .navbar-brand {
+
   color: #fff;
+}
+.bs-docs-nav .navbar-header
+{
+    width:150px;
+    height:80px;
+}
+.bs-docs-nav .navbar-header img
+{
+    width:150px;
+    display: block;
+    margin-bottom: 10px;
+}
+.bs-docs-nav .navbar-nav
+{
+    margin-top: 30px;
+    margin-left:0px;
+}
+.bs-docs-nav .navbar-nav > li
+{
+    text-align: center;
+    width:140px;
 }
 .bs-docs-nav .navbar-nav > li > a {
   color: #ffffff;
@@ -27,8 +106,8 @@ body {
 }
 .bs-docs-nav .navbar-nav > .active > a,
 .bs-docs-nav .navbar-nav > .active > a:hover {
-  color: #fff;
-  background-color: #463265;
+  color: #00ffff;
+  background: #333333;
 }
 .bs-docs-nav .navbar-toggle {
   border-color: #563d7c;
