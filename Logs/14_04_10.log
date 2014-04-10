@@ -807,3 +807,76 @@ mytest: {"random":"0","current":"2"}
 mytest: {"random":"0","current":"2"}
 [ 2014-04-10T12:03:09+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
 mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:09:21+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000082s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001904s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003268s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000371s ]
+
+[ 2014-04-10T12:09:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000097s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003194s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.014051s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000410s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001484s ]
+SQL: SELECT * FROM `db_users` WHERE ( `email` = 'dz5362@qq.com' ) LIMIT 1   [ RunTime:0.000683s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-10 12:09:26',`last_login_ip`='127.0.0.1' WHERE ( id=000000000001262 ) [ RunTime:0.000461s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/test/Application/Home/Controller/UserController.class.php on line 88 and defined /Library/WebServer/Documents/git/test/Application/Home/Controller/UserController.class.php 第 110 行.
+SQL: SELECT * FROM `db_users` WHERE ( `email` = '1262' ) LIMIT 1   [ RunTime:0.022703s ]
+
+[ 2014-04-10T12:09:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:09:29+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:09:31+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:09:32+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:09:33+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:19+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/paymentHistory.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:40+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/depositHistory.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:42+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/incomeAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:43+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/incomeHistory.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:44+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/withdrawsHistory.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:44+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/incomeHistory.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:45+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/incomeAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:58+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/incomeAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:11:59+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/incomeHistory.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:12:00+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/withdrawsHistory.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:12:08+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:12:09+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-10T12:12:36+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001719s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002895s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000361s ]
+

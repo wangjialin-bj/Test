@@ -26,7 +26,16 @@
       <file leaf-file-name="UserController.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="245" column="50" selection-start="6346" selection-end="6346" vertical-scroll-proportion="0.78519595" vertical-offset="4000" max-vertical-offset="5795">
+            <state line="288" column="35" selection-start="7435" selection-end="7435" vertical-scroll-proportion="0.33286518" vertical-offset="5121" max-vertical-offset="5833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="26" selection-start="879" selection-end="879" vertical-scroll-proportion="-10.592592" vertical-offset="132" max-vertical-offset="874">
               <folding />
             </state>
           </provider>
@@ -50,46 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Common/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1691">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersModel.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/Model/UsersModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="57" selection-start="1084" selection-end="1361" vertical-scroll-proportion="-23.444445" vertical-offset="659" max-vertical-offset="1482">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="418" column="22" selection-start="10814" selection-end="10827" vertical-scroll-proportion="-12.333333" vertical-offset="7495" max-vertical-offset="19380">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/User/Conf/config.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="361">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UcenterMemberModel.class.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/User/Model/UcenterMemberModel.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="41" selection-start="4609" selection-end="4609" vertical-scroll-proportion="-45.225353" vertical-offset="0" max-vertical-offset="5206">
               <folding />
             </state>
           </provider>
@@ -133,8 +106,8 @@
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/withdrawsHistory.html" />
         <option value="$PROJECT_DIR$/Application/Home/Model/UsersModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/Public/header.html" />
+        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
       </list>
     </option>
@@ -518,7 +491,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="20" selection-start="953" selection-end="953" vertical-scroll-proportion="0.53295934" vertical-offset="0" max-vertical-offset="9481" />
+        <state line="28" column="20" selection-start="953" selection-end="953" vertical-scroll-proportion="0.53295934" vertical-offset="0" max-vertical-offset="9481">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AccountController.class.php">
@@ -715,13 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.627972" vertical-offset="159" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Common/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="68" selection-start="1583" selection-end="1589" vertical-scroll-proportion="-0.93613935" vertical-offset="1443" max-vertical-offset="24415">
@@ -731,28 +699,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1691">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.027065527" vertical-offset="19" max-vertical-offset="1691">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/User/Model/UcenterMemberModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="41" selection-start="4609" selection-end="4609" vertical-scroll-proportion="-45.225353" vertical-offset="0" max-vertical-offset="5206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/UsersModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="57" selection-start="1084" selection-end="1361" vertical-scroll-proportion="-23.444445" vertical-offset="659" max-vertical-offset="1482">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="418" column="22" selection-start="10814" selection-end="10827" vertical-scroll-proportion="-12.333333" vertical-offset="7495" max-vertical-offset="19380">
+        <state line="175" column="41" selection-start="4609" selection-end="4609" vertical-scroll-proportion="4.6944447" vertical-offset="0" max-vertical-offset="5206">
           <folding />
         </state>
       </provider>
@@ -760,6 +714,20 @@
     <entry file="file://$PROJECT_DIR$/Application/User/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/UsersModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="20" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.739011" vertical-offset="621" max-vertical-offset="1482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="9" selection-start="722" selection-end="722" vertical-scroll-proportion="0.33286715" vertical-offset="85" max-vertical-offset="19513">
           <folding />
         </state>
       </provider>
@@ -778,9 +746,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="26" selection-start="879" selection-end="879" vertical-scroll-proportion="-10.592592" vertical-offset="132" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="50" selection-start="6346" selection-end="6346" vertical-scroll-proportion="0.78519595" vertical-offset="4000" max-vertical-offset="5795">
+        <state line="288" column="35" selection-start="7435" selection-end="7435" vertical-scroll-proportion="0.33286518" vertical-offset="5121" max-vertical-offset="5833">
           <folding />
         </state>
       </provider>

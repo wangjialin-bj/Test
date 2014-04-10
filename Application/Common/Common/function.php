@@ -423,6 +423,13 @@ function get_useremail($uid = 0)
 	}
 }
 
+function get_usertype($uid = 0)
+{
+	if(!($uid && is_numeric($uid))){ //获取当前登录用户名
+		return session('user_auth.is_translator');
+	}
+}
+
 /**
  * 根据用户ID获取用户昵称
  * @param  integer $uid 用户ID

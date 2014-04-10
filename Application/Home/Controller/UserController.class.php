@@ -222,9 +222,11 @@ class UserController extends HomeController {
 	{
 		$this->checkUserLogin();
 		//用户状态 0 tator 1 user
-		$user_type = 1;
-		$userModel = $user_type ? D('TransUsers') : D('Users');
-		$result = $userModel->field('id , money')->find('0000001262');
+		$user_type = get_usertype();
+		$uid = UID;
+		$userModel = $user_type ? D('Users') : D('Users');
+		$result = $userModel->field('id , money')->where('id='.$uid)->find();
+
 		if(!$result)
 		{
 			$this->redirect('Home/Index');
@@ -278,7 +280,7 @@ class UserController extends HomeController {
 	public function incomeAccount()
 	{
 		$this->checkUserLogin();
-		$user_type = 0;
+		$user_type = get_usertype();
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'incomeAccount');
 		$this->display();
@@ -287,7 +289,7 @@ class UserController extends HomeController {
 	public function incomeHistory()
 	{
 		$this->checkUserLogin();
-		$user_type = 0;
+		$user_type = get_usertype();
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'incomeHistory');
 		$this->display();
@@ -296,7 +298,7 @@ class UserController extends HomeController {
 	public function withdrawsHistory()
 	{
 		$this->checkUserLogin();
-		$user_type = 0;
+		$user_type = get_usertype();
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'withdrawsHistory');
 		$this->display();
