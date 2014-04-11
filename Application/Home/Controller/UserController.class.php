@@ -22,68 +22,15 @@ class UserController extends HomeController {
         $this->assign('guide' , 'usercenter');
     }
 
-	/* 注册页面 */
-	public function register($username = '', $password = '', $repassword = '', $email = '', $mobile = '', $verify = ''){
-        if(!C('USER_ALLOW_REGISTER')){
-            $this->error('注册已关闭');
-        }
-		if(IS_POST){ //注册用户
-			/* 检测验证码 */
-			if(!check_verify($verify)){
-				$this->error('验证码输入错误！');
-			}
-
-			/* 检测密码 */
-			if($password != $repassword){
-				$this->error('密码和重复密码不一致！');
-			}
-
-			/* 调用注册接口注册用户 */
-            $User = new UserApi;
-			$uid = $User->register($username, $password, $email , $mobile);
-			if(0 < $uid){ //注册成功
-				$data = array(
-		            'uid'             => $uid,
-		            'login'           => array('exp', '`login`+1'),
-		            'last_login_time' => NOW_TIME,
-		            'last_login_ip'   => get_client_ip(1),
-		        );
-        	M('Member')->save($data);
-
-        	/* 记录登录SESSION和COOKIES */
-	        $auth = array(
-	            'uid'             => $uid,
-	            'username'        => get_username($uid),
-	            'last_login_time' => NOW_TIME,
-	        );
-
-	        session('user_auth', $auth);
-	        session('user_auth_sign', data_auth_sign($auth));
-
-			$this->success('注册成功！',U('home/index/index'));
-
-			} else { //注册失败，显示错误信息
-				$this->error($this->showRegError($uid));
-			}
-
-		} else { //显示注册表单
-			$this->display();
-		}
-	}
-
-	public function changepwd()
-	{
-		echo 1;die;
-	}
 	/* 登录页面 */
-	public function login($username = '', $password = '', $verify = ''){
+	public function login($id = '', $password = '', $verify = ''){
 		if(IS_POST){ //登录验证
 			/* 检测验证码 */
 			if(!check_verify($verify)){
 				$this->error('Captcha input error!');
 			}
 
-			$uid = intval($this->checklogin($username, $password));
+			$uid = intval($this->checklogin($id, $password));
 			if(0 < $uid){
 				if($this->checkLogin($uid)){ //登录用户
 					//TODO:跳转到登录前页面
@@ -107,10 +54,10 @@ class UserController extends HomeController {
 		}
 	}
 
-	public function checkLogin($username , $password)
+	public function checkLogin($id , $password)
 	{
 		$userModel = D('Users');
-		$map['email'] = trim($username);
+		$map['id'] = trim($id);
 		get_username();
 		$user = $userModel->where($map)->find();
 		if(is_array($user)){
@@ -195,25 +142,64 @@ class UserController extends HomeController {
             $password   =   I('post.old');
             $repassword = I('post.repassword');
             $data['password'] = I('post.password');
-            empty($password) && $this->error('请输入原密码');
-            empty($data['password']) && $this->error('请输入新密码');
-            empty($repassword) && $this->error('请输入确认密码');
+            empty($password) && $this->error('Please enter the original password');
+            empty($data['password']) && $this->error('Please enter a new password');
+            empty($repassword) && $this->error('Please enter the confirmation password');
 
             if($data['password'] !== $repassword){
-                $this->error('您输入的新密码与确认密码不一致');
+                $this->error("You enter a new password and confirm password don't match");
             }
-
-            $Api = new UserApi();
-            $res = $Api->updateInfo($uid, $password, $data);
+            $res = $this->updateInfo($uid, $password, $data);
             if($res['status']){
-                $this->success('修改密码成功！');
+				$this->error('Success!' , 2 , U('Home/User/paymentAccount'));
             }else{
-                $this->error($res['info']);
+                $this->error('Error!');
             }
         }else{
             $this->display();
         }
     }
+
+	public function updateInfo($uid, $password, $data){
+		$usersModel = D('Users');
+		if($this->updateUserFields($uid, $password, $data) !== false){
+			$return['status'] = true;
+		}else{
+			$return['status'] = false;
+			$return['info'] = $usersModel->getError();
+		}
+		return $return;
+	}
+
+	public function updateUserFields($uid, $password, $data){
+		$usersModel = D('Users');
+		if(empty($uid) || empty($password) || empty($data)){
+			$this->error = 'parameter error';
+			return false;
+		}
+
+		//更新前检查用户密码
+		if(!$this->verifyUser($uid, $password)){
+			$this->error = 'Validation error: the password is not correct!';
+			return false;
+		}
+
+		//更新用户信息
+		$data['password'] = md5($data['password']);
+		if($data){
+			return $usersModel->where(array('id'=>$uid))->save($data);
+		}
+		return false;
+	}
+
+	protected function verifyUser($uid, $password_in){
+		$usersModel = D('Users');
+		$password = $usersModel->getFieldById($uid, 'password');
+		if(md5($password_in) === $password){
+			return true;
+		}
+		return false;
+	}
 
 	/*
 	 * 用户账户余额
@@ -221,10 +207,8 @@ class UserController extends HomeController {
 	public function paymentAccount()
 	{
 		$this->checkUserLogin();
-		//用户状态 0 tator 1 user
-		$user_type = get_usertype();
 		$uid = UID;
-		$userModel = $user_type ? D('Users') : D('Users');
+		$userModel =  D('Users');
 		$result = $userModel->field('id , money')->where('id='.$uid)->find();
 
 		if(!$result)
@@ -351,10 +335,24 @@ class UserController extends HomeController {
 		$this->display();
 	}
 
+	/*
+	 * 议员收入账户余额
+	 * */
 	public function incomeAccount()
 	{
 		$this->checkUserLogin();
 		$user_type = get_usertype();
+		$uid = UID;
+		$userModel =  D('TransUsers');
+		$result = $userModel->field('id , money')->where('id='.$uid)->find();
+
+		if(!$result)
+		{
+			$this->redirect('Home/Index');
+		}
+		$result['id'] = (int)($result['id']);
+		$result['money'] = (float)($result['money']);
+		$this->assign('data' , $result);
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'incomeAccount');
 		$this->display();

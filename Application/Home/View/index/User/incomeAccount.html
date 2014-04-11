@@ -12,7 +12,26 @@
         </div>
         <div class="col-md-9">
             <if condition="$user_type eq 1">
-               TransUser
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr style="text-align: center;">
+                        <td style="font-weight: bold;">
+                            User Id
+                        </td>
+                        <td>
+                            {$data.id}
+                        </td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td style="font-weight: bold;">
+                            Balance
+                        </td>
+                        <td>
+                            US$ <font color="#9acd32">{$data.money}</font>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </if>
 
             <if condition="$user_type eq 0">

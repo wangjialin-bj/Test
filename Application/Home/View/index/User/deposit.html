@@ -12,13 +12,33 @@
         </div>
         <div class="col-md-9">
             <div class="payment_form">
-                <form class="form" method="post" action="{:U('User/deposit')}">
+                <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+                    <input type="hidden" name="cmd" value="_xclick"> <!--// "_xclick" 立即购买 -->
+                    <input type="hidden" name="business" value="dz5362_3@qq.com">
+
+                    <input type="hidden" name="on0" value="{$Think.UID}"><!-- 自定义的参数1 -->
+
+                    <input type="hidden" name="os0" value="stephen"><!-- 对应上面自定义参数1对应的值 -->
+
+                    <input type="hidden" name="on1" value="address"><!-- 自定义的参数2 -->
+
+                    <input type="hidden" name="os1" value="shanghai china"><!-- 对应上面自定义参数2对应的值 -->
+                    <!--这里告诉paypal付款的通信url,即当客户付款后调用这个url通知系统-->
+                    <!-- //PayPal账户上的电子邮件地址 -->
+                    <input type="hidden" name="item_name" value="memberpay">
+
+                    <!-- //物品名称（或购物车名称） -->
+                    <input type="hidden" name="currency_code" value="USD">
+
+                    <!-- //定义币种以标示货币变量 值可以为 "USD"、"EUR"、"GBP"、"CAD"、"JPY"。 -->
                     <label>
                         Amount:
                     </label>
-                    <input type="text" value="" name="apply_number" />
+                    <input type="text" value="" name="amount" />
                     <span>( US$ )</span>
-                    <input type="submit" value="Checkout with Paypal" class="btn btn-success">
+
+                    <!-- //物品的价格（购物车中所有物品的总价格,因为是_Xclick模式） -->
+                    <input type="submit" class="btn btn-success" name="submit" value='Pay for Paypal'>
                 </form>
             </div>
         </div>

@@ -32,12 +32,11 @@
             <ul class="nav navbar-nav navbar-right">
                 <if condition="is_login()">
                     <li >
-                        <a href="{:U('User/paymentAccount')}">{:get_useremail()}</a>
+                        <a href="{:U('User/paymentAccount')}">User ID:{$Think.UID}</a>
                     </li>
                     <li><a href="{:U('User/logout')}">  {:L("L_LOG_OUT")}</a></li>
 
                 <else/>
-                <!--<li><a href="{:U('User/Register')}">注册</a></li>-->
                 <li class=""><a href="{:U('User/login')}">Sign</a></li>
                 </if>
             </ul>

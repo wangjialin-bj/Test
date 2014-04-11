@@ -13,16 +13,16 @@
         <div class="col-md-9">
             <table class="table table-bordered">
                 <tbody>
-                <tr>
-                    <td>
+                <tr style="text-align: center;">
+                    <td style="font-weight: bold;">
                         User Id
                     </td>
                     <td>
                         {$data.id}
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr style="text-align: center;">
+                    <td style="font-weight: bold;">
                         Balance
                     </td>
                     <td>
@@ -32,6 +32,7 @@
                 </tbody>
             </table>
             <a href="{:U('User/deposit')}" class="btn btn-success">Deposit</a>
+            <a href="{:U('User/profile')}" class="btn btn-primary">Reset password</a>
         </div>
      </div>
 </block>
