@@ -417,6 +417,8 @@ class UserController extends HomeController {
 	public function withdrawsHistory()
 	{
 		$this->checkUserLogin();
+		$msgLogs = D('MsgLogs')->query('select * from db_msg_logs a , db_trans_users b where 1 = 1 limit 0 , 2');
+		dump($msgLogs);
 		$user_type = get_usertype();
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'withdrawsHistory');
