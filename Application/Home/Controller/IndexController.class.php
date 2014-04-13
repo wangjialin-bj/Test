@@ -29,6 +29,11 @@ class IndexController extends HomeController {
         $this->display();
     }
 
+	public function details()
+	{
+		$this->display();
+	}
+
     //语言切换
     public function changeLanguage()
     {
