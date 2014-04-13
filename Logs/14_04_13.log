@@ -1,0 +1,1024 @@
+[ 2014-04-13T09:09:48+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:09:59+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003601s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000103s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.022327s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.002860s ]
+SQL: SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1   [ RunTime:0.000660s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@163.com ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1  
+
+[ 2014-04-13T09:10:01+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001691s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002986s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001312s ]
+SQL: SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1   [ RunTime:0.000163s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@163.com ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1  
+
+[ 2014-04-13T09:10:02+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003121s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001363s ]
+SQL: SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1   [ RunTime:0.000166s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@163.com ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1  
+
+[ 2014-04-13T09:10:02+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001337s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000489s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001421s ]
+SQL: SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1   [ RunTime:0.000204s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@163.com ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1  
+
+[ 2014-04-13T09:10:12+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001247s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000387s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001236s ]
+SQL: SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1   [ RunTime:0.000162s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@163.com ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `db_users` WHERE ( email=dz5362@163.com ) LIMIT 1  
+
+[ 2014-04-13T09:10:49+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:10:58+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001200s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001237s ]
+SQL: SELECT * FROM `db_users` WHERE ( email=dz5362@qq.com ) LIMIT 1   [ RunTime:0.000181s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `db_users` WHERE ( email=dz5362@qq.com ) LIMIT 1  
+
+[ 2014-04-13T09:11:53+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:11:56+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003071s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000396s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001093s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000453s ]
+
+[ 2014-04-13T09:11:57+08:00 ] 127.0.0.1 /git/test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:12:15+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:12:18+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001663s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003156s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001083s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com111" ) LIMIT 1   [ RunTime:0.014417s ]
+
+[ 2014-04-13T09:13:35+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:13:39+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000089s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003251s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000416s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001284s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.comw" ) LIMIT 1   [ RunTime:0.015637s ]
+
+[ 2014-04-13T09:13:41+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001793s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002983s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001314s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000499s ]
+
+[ 2014-04-13T09:13:41+08:00 ] 127.0.0.1 /git/test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:24:24+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:24:26+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:24:36+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002526s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001323s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000560s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001178s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000469s ]
+
+[ 2014-04-13T09:24:36+08:00 ] 127.0.0.1 /git/test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:31:08+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:31:10+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:31:24+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000120s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002726s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002886s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000362s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001324s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000478s ]
+
+[ 2014-04-13T09:31:24+08:00 ] 127.0.0.1 /git/test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:32:02+08:00 ] 127.0.0.1 /git/test/index.php/Home/user/retakesuccess
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:32:04+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:33:23+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:33:31+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000119s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001892s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002839s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000381s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001287s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000424s ]
+
+[ 2014-04-13T09:33:31+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retakesuccess.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:33:33+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:35:38+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:35:45+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000150s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002538s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000094s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003190s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001279s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000553s ]
+
+[ 2014-04-13T09:35:45+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retakesuccess.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:35:48+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:37:49+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:38:05+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:38:15+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001372s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000506s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001125s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000786s ]
+
+[ 2014-04-13T09:38:15+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retakesuccess.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:38:17+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:38:47+08:00 ] 127.0.0.1 /git/Test/index.php/Home/Index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:39:25+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:39:36+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001828s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002808s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000497s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001327s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000369s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 09:39:36',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000471s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000343s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T09:39:36+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:39:38+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:39:47+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002201s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002998s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000374s ]
+
+[ 2014-04-13T09:39:57+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001803s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001300s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000315s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001412s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000334s ]
+SQL: UPDATE `db_users` SET `password`='a6d0611d0131a65739ba03f6c258d52c' WHERE ( `id` = 1262 ) [ RunTime:0.000237s ]
+
+[ 2014-04-13T09:39:57+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:40:00+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:40:01+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:40:14+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002757s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001284s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000361s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 09:40:14',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000249s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T09:40:14+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:42:22+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:42:23+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:42:58+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:43:12+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002977s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000441s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001346s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000492s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 09:43:12',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000344s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 36 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 58 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000439s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 66 行.
+
+[ 2014-04-13T09:43:22+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003095s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000465s ]
+
+[ 2014-04-13T09:43:34+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:43:49+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003219s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000395s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001493s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000486s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 09:43:49',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000421s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T09:43:49+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:43:52+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:43:59+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002883s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000525s ]
+
+[ 2014-04-13T09:44:06+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000191s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003633s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000099s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001547s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000739s ]
+
+[ 2014-04-13T09:44:16+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000094s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002370s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003381s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000547s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001220s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000469s ]
+
+[ 2014-04-13T09:44:23+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:44:24+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:44:25+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:44:35+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000074s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003450s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000428s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001328s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000495s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 09:44:35',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000425s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000313s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T09:44:35+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:44:38+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:44:45+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001308s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000470s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001368s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000525s ]
+
+[ 2014-04-13T09:45:54+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:04+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000076s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001821s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001334s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000490s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001398s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: UPDATE `db_users` SET `password`='c110ebb70046ecdb12acf6fdcb800ab5' WHERE ( `id` = 1262 ) [ RunTime:0.000233s ]
+
+[ 2014-04-13T09:46:04+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:05+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:07+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:20+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003000s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001227s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 09:46:20',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000240s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000273s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T09:46:20+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:34+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:35+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:36+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:51+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:54+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:46:58+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:47:07+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001664s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003127s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001208s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000421s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 09:47:07',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000243s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T09:47:07+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:47:10+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/profile.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:51:47+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:51:48+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:51:49+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:52:00+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002818s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001308s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000418s ]
+
+[ 2014-04-13T09:52:00+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/retakesuccess.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:52:03+08:00 ] 127.0.0.1 /git/test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:55:38+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:55:52+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:56:01+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:56:48+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T09:56:58+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:00:02+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:00:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:00:33+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:01:37+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:01:58+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:02:03+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:02:15+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:05:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:07:54+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:08:01+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000073s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002911s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001258s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=1262 ) LIMIT 1   [ RunTime:0.000456s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 182 行.
+
+[ 2014-04-13T10:08:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:08:17+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002219s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002930s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000357s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001809s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=1262 ) LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000325s ]
+
+[ 2014-04-13T10:08:19+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:08:20+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:08:25+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:08:34+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001926s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002847s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000355s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001250s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2014-04-13T10:08:40+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000147s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003153s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003188s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000533s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001466s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000529s ]
+
+[ 2014-04-13T10:08:49+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000078s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002761s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000479s ]
+
+[ 2014-04-13T10:08:54+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000126s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003118s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000352s ]
+
+[ 2014-04-13T10:09:02+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000098s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002976s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000348s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001335s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000489s ]
+
+[ 2014-04-13T10:09:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000075s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001797s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002946s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000373s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001189s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000403s ]
+
+[ 2014-04-13T10:09:24+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000077s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001916s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003357s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000482s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001600s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000548s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 10:09:24',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000415s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T10:09:24+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:09:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:09:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:09:32+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:10:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000072s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002574s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000458s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001282s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=1262 ) LIMIT 1   [ RunTime:0.000435s ]
+
+[ 2014-04-13T10:11:29+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:11:36+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002884s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001257s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=1262 ) LIMIT 1   [ RunTime:0.000432s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000275s ]
+
+[ 2014-04-13T10:11:47+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000069s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002729s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000335s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001254s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=1262 ) LIMIT 1   [ RunTime:0.000357s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000273s ]
+
+[ 2014-04-13T10:12:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000102s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003035s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000360s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001185s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=1262 ) LIMIT 1   [ RunTime:0.000392s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000281s ]
+
+[ 2014-04-13T10:12:37+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000068s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002938s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000358s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001284s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=1262 ) LIMIT 1   [ RunTime:0.000437s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000278s ]
+
+[ 2014-04-13T10:13:59+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:14:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003307s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001337s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000250s ]
+
+[ 2014-04-13T10:15:10+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001864s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003021s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000365s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001034s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000370s ]
+
+[ 2014-04-13T10:15:36+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001787s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001199s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000313s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001282s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000359s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000261s ]
+
+[ 2014-04-13T10:19:53+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262//token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:20:02+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000084s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003045s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000369s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001028s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000304s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2014-04-13T10:20:09+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001046s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000339s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001220s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000348s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000151s ]
+
+[ 2014-04-13T10:20:18+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001968s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.022250s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000442s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.002193s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000392s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: UPDATE `db_users` SET `password`='f4f6b553dcf1812f862688483f763c48' WHERE ( `id` = 1262 ) [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: res /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 195 行.
+
+[ 2014-04-13T10:20:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:20:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000070s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002703s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000377s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001236s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 10:20:39',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000249s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000268s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T10:20:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:20:59+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:00+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:01+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:03+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002940s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001232s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="dz5362@qq.com" ) LIMIT 1   [ RunTime:0.000431s ]
+
+[ 2014-04-13T10:21:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/retakesuccess.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:16+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:20+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd/id/1262/token/06a48bc9332e8e2c98493958c6c8448d
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/checkpwd.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000071s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001726s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.002717s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000393s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001167s ]
+SQL: SELECT * FROM `db_users` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.000355s ]
+SQL: SELECT `password` FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: UPDATE `db_users` SET `password`='c110ebb70046ecdb12acf6fdcb800ab5' WHERE ( `id` = 1262 ) [ RunTime:0.000300s ]
+
+[ 2014-04-13T10:21:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:40+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000079s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002160s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.003476s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000491s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.001283s ]
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000470s ]
+SQL: UPDATE `db_users` SET `id`=1262,`last_login_date`='14-04-13 10:21:40',`last_login_ip`='127.0.0.1' WHERE ( id=1262 ) [ RunTime:0.000458s ]
+NOTIC: [2] Missing argument 2 for Home\Controller\UserController::checkLogin(), called in /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php on line 35 and defined /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 57 行.
+SQL: SELECT * FROM `db_users` WHERE ( `id` = 1262 ) LIMIT 1   [ RunTime:0.000331s ]
+NOTIC: [8] Undefined variable: password /Library/WebServer/Documents/git/Test/Application/Home/Controller/UserController.class.php 第 65 行.
+
+[ 2014-04-13T10:21:40+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:44+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/logout.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:21:45+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-13T10:22:16+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}

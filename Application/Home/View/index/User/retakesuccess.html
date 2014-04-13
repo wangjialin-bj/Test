@@ -1,0 +1,23 @@
+<extend name="Base/common" />
+
+
+<block name="body">
+    <section>
+        <div class="col-md-12">
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-6" style="padding-top: 30px;">
+            <h2>Mail sent successfully! Please login your email and password.</h2>
+            <p>You can't get a please <a href="{:U('User/retake')}">resend mail</a></p>
+        </div>
+        <div class="col-md-3"></div>
+    </section>
+</block>
+<block name="script">
+       <script>
+           setTimeout(function(){
+               window.location.href = "{:U('Home/User/login')}";
+           },2500);
+       </script>
+</block>
+

@@ -966,7 +966,14 @@ function get_stemma($pids,Model &$model, $field='id'){
 }
 
 
-/*PHPMailer邮件发送类 新扩展*/
+/*PHPMailer邮件发送类 新扩展
+*
+* to 发送者邮件地址
+ * subject 发送者邮件主题
+ * body 发送者邮件内容
+ * name 发送者昵称
+ * attachment 附件
+*/
 function send_mail($to = '', $subject = '', $body = '', $name = '', $attachment = null)
 {
 	$from_email = C('MAIL_SMTP_USER');

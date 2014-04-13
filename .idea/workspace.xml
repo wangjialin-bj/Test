@@ -26,34 +26,40 @@
       <file leaf-file-name="UserController.class.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="419" column="57" selection-start="12080" selection-end="12080" vertical-scroll-proportion="0.55329156" vertical-offset="7494" max-vertical-offset="8132">
+            <state line="192" column="13" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.5816994" vertical-offset="3292" max-vertical-offset="10279">
+              <folding>
+                <element signature="e#6#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="185" column="23" selection-start="5050" selection-end="5050" vertical-scroll-proportion="-8.185185" vertical-offset="3142" max-vertical-offset="5757">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/login.html">
+      <file leaf-file-name="checkpwd.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/checkpwd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="22" selection-start="315" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1938">
-              <folding />
+            <state line="7" column="86" selection-start="285" selection-end="285" vertical-scroll-proportion="-4.6296296" vertical-offset="8" max-vertical-offset="1501">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#if#0;n#section#0;n#block#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#form#0;n#div#1;n#if#0;n#section#0;n#block#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#if#1;n#section#0;n#block#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="incomeAccount.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/incomeAccount.html">
+      <file leaf-file-name="function.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="25" selection-start="492" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="969">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="78" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1330">
+            <state line="971" column="18" selection-start="24977" selection-end="24977" vertical-scroll-proportion="-9.0" vertical-offset="18092" max-vertical-offset="19646">
               <folding />
             </state>
           </provider>
@@ -85,7 +91,6 @@
         <option value="$PROJECT_DIR$/Application/Home/Model/TransUsersModel.ckass.php" />
         <option value="$PROJECT_DIR$/Application/Home/Model/RechargeLogModel.class.php" />
         <option value="$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php" />
-        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/withdrawsHistory.html" />
         <option value="$PROJECT_DIR$/Application/Home/Model/UsersModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php" />
@@ -99,11 +104,18 @@
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/deposit.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/incomeAccount.html" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/Public/header.html" />
-        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/paymentAccount.html" />
-        <option value="$PROJECT_DIR$/Application/Home/View/index/User/login.html" />
         <option value="$PROJECT_DIR$/Application/User/Model/UcenterMemberModel.class.php" />
         <option value="$PROJECT_DIR$/Application/Home/View/index/User/profile.html" />
+        <option value="$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl" />
+        <option value="$PROJECT_DIR$/Application/Home/View/index/User/login.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/index/User/retake.htm" />
+        <option value="$PROJECT_DIR$/Application/Common/Common/function.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/index/User/retakesuccess.html" />
+        <option value="$PROJECT_DIR$/Application/Common/Conf/config.php" />
+        <option value="$PROJECT_DIR$/Application/Home/View/index/User/retake.html" />
+        <option value="$PROJECT_DIR$/Application/Home/View/index/User/checkpwd.html" />
         <option value="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" />
       </list>
     </option>
@@ -139,7 +151,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,36 +256,6 @@
               <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -312,16 +293,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Home" />
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="Application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -347,7 +347,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.223193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23351866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -355,11 +355,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.023631841" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -379,31 +379,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Application/Common/Lang/en-us.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="610" column="54" selection-start="28103" selection-end="28103" vertical-scroll-proportion="0.0" vertical-offset="11590" max-vertical-offset="11913" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Lang/zh-cn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="619" column="0" selection-start="23749" selection-end="23989" vertical-scroll-proportion="0.6068966" vertical-offset="11283" max-vertical-offset="12008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Index/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="5049" selection-end="5049" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1824" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Admin/Lang/zh-cn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="679" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/body.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="380" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention_sae.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="25" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="836" />
@@ -438,7 +413,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="131" column="29" selection-start="4723" selection-end="4723" vertical-scroll-proportion="2.8955007" vertical-offset="494" max-vertical-offset="2850">
           <folding>
-            <element signature="e#6#80#0" expanded="true" />
+            <element signature="e#6#80#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -453,11 +428,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1444" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Model/MemberModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="0" selection-start="2452" selection-end="2452" vertical-scroll-proportion="0.5041209" vertical-offset="1077" max-vertical-offset="1805" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Common/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.027065527" vertical-offset="19" max-vertical-offset="1691" />
@@ -465,9 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/User/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="361" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/UsersModel.class.php">
@@ -478,11 +446,6 @@
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/IndexController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="0.41758242" vertical-offset="0" max-vertical-offset="1843" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="9" selection-start="2633" selection-end="2633" vertical-scroll-proportion="0.22252747" vertical-offset="1225" max-vertical-offset="2033" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/RechargeLogModel.class.php">
@@ -552,11 +515,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-49.42595" vertical-offset="37712" max-vertical-offset="38475" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="0" selection-start="9880" selection-end="9880" vertical-scroll-proportion="0.19011976" vertical-offset="6941" max-vertical-offset="19513" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="23" selection-start="1652" selection-end="1652" vertical-scroll-proportion="-17.25926" vertical-offset="256" max-vertical-offset="950" />
@@ -586,65 +544,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/paymentAccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="25" selection-start="967" selection-end="967" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/incomeAccount.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="492" selection-end="1105" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/index/Public/header_old.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="66" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.58485276" vertical-offset="248" max-vertical-offset="1007" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="78" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="1330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="315" selection-end="815" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="1938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="988">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="63" selection-start="7937" selection-end="7937" vertical-scroll-proportion="0.0" vertical-offset="5092" max-vertical-offset="5909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/TransUsersModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="245" selection-end="245" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="418">
-          <folding />
-        </state>
+        <state line="11" column="36" selection-start="245" selection-end="245" vertical-scroll-proportion="-7.740741" vertical-offset="0" max-vertical-offset="418" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Model/MsgLogsModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3933121" vertical-offset="0" max-vertical-offset="628">
-          <folding />
-        </state>
+        <state line="13" column="51" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3933121" vertical-offset="0" max-vertical-offset="628" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ThinkPHP/Common/functions.php">
@@ -656,15 +568,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/User/Model/UcenterMemberModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="31" selection-start="3338" selection-end="3338" vertical-scroll-proportion="-0.17868339" vertical-offset="2204" max-vertical-offset="5206">
+        <state line="116" column="31" selection-start="3338" selection-end="3338" vertical-scroll-proportion="-0.17868339" vertical-offset="2204" max-vertical-offset="5206" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/incomeAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="25" selection-start="492" selection-end="1105" vertical-scroll-proportion="-19.0" vertical-offset="76" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Tpl/default_index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Model/MemberModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="5" selection-start="1903" selection-end="2061" vertical-scroll-proportion="-12.888889" vertical-offset="811" max-vertical-offset="1805">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/paymentAccount.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="967" selection-end="967" vertical-scroll-proportion="0.7022293" vertical-offset="110" max-vertical-offset="836">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Tpl/dispatch_jump.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="17" selection-start="698" selection-end="698" vertical-scroll-proportion="0.684953" vertical-offset="19" max-vertical-offset="1045">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="43" selection-start="1057" selection-end="1057" vertical-scroll-proportion="0.5956113" vertical-offset="57" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/Controller/HomeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="631" selection-end="631" vertical-scroll-proportion="0.27804878" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/retakesuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="606" selection-end="606" vertical-scroll-proportion="0.5545315" vertical-offset="0" max-vertical-offset="651">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#section#0;n#block#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/retake.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="26" selection-start="976" selection-end="976" vertical-scroll-proportion="0.5956113" vertical-offset="38" max-vertical-offset="1254">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#section#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#form#0;n#div#2;n#section#0;n#block#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="10" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.4169279" vertical-offset="380" max-vertical-offset="1330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="17" selection-start="2127" selection-end="2127" vertical-scroll-proportion="0.5072" vertical-offset="785" max-vertical-offset="2166">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="971" column="18" selection-start="24977" selection-end="24977" vertical-scroll-proportion="-9.0" vertical-offset="18092" max-vertical-offset="19646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/index/User/checkpwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="86" selection-start="285" selection-end="285" vertical-scroll-proportion="-4.6296296" vertical-offset="8" max-vertical-offset="1501">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#if#0;n#section#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#2;n#form#0;n#div#1;n#if#0;n#section#0;n#block#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#if#1;n#section#0;n#block#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="185" column="23" selection-start="5050" selection-end="5050" vertical-scroll-proportion="-8.185185" vertical-offset="3142" max-vertical-offset="5757">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/Controller/UserController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="419" column="57" selection-start="12080" selection-end="12080" vertical-scroll-proportion="0.55329156" vertical-offset="7494" max-vertical-offset="8132">
-          <folding />
+        <state line="192" column="13" selection-start="5000" selection-end="5000" vertical-scroll-proportion="0.5816994" vertical-offset="3292" max-vertical-offset="10279">
+          <folding>
+            <element signature="e#6#80#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

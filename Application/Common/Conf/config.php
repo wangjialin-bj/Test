@@ -61,6 +61,12 @@ return array(
 	'MAIL_SMTP_PASS' => 'lai100yy0110',	//发送邮箱密码
 	'MAIL_SMTP_CE'	 =>	'dz5362@163.com',//测试接收邮箱地址
 
+	/*
+	 * 邮件主题，发件人名称
+	 * */
+	'MAIL_TITLE'	=> 'Find Password',
+	'MAIL_NIKENAME'	=> 'getPro Admin',
+
     /*paypal支付配置*/
     'PAYPAL_FORM_CONFIG' =>  array(
         'cmd'       =>  '_xclick',
@@ -73,6 +79,7 @@ return array(
         'return'    =>  '',
         'notify_url'=>  '',
         ),
+
     /*日志操作*/
     'LOG_RECORD' => true, // 开启日志记录
     'LOG_LEVEL'  =>'EMERG,ALERT,CRIT,ERR', // 只记录EMERG ALERT CRIT ERR 错误

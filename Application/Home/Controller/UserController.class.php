@@ -62,7 +62,7 @@ class UserController extends HomeController {
 		$user = $userModel->where($map)->find();
 		if(is_array($user)){
 			/* 验证用户密码 */
-			if(md5($password) === $user['password']){
+			if(md5(md5($password)) === $user['password']){
 				$data = array(
 					'id'              => $user['id'],
 					'last_login_date' => date('y-m-d H:i:s' , time()),
@@ -92,7 +92,7 @@ class UserController extends HomeController {
 	public function logout(){
 		if(is_login()){
 			D('Member')->logout();
-			$this->success('退出成功！', U('User/login'));
+			$this->success('Exit the success！', U('User/login'));
 		} else {
 			$this->redirect('User/login');
 		}
@@ -103,6 +103,106 @@ class UserController extends HomeController {
 		$verify = new \Think\Verify();
 		$verify->entry(1);
 	}
+
+	/*
+	 * 邮箱找回密码
+	 * */
+	public function retake()
+	{
+		if(IS_POST)
+		{
+			$email = I('post.email');
+			empty($email) && $this->error('Please enter the Email!');
+			if($this->is_email($email) == false)
+			{
+				$this->error('Email format error');
+			}
+			$user_info = D('Users')->where('email="'.$email.'"')->find();
+			if(!$user_info)
+			{
+				$this->error('There is no this email users');
+			}
+			/*send email*/
+			$token = md5($user_info['id']."_".$user_info['email']);
+			$re = send_mail($email,C('MAIL_TITLE'),'<a href="http://127.0.0.1/git/Test/index.php/Home/User/checkpwd/id/'.$user_info['id'].'/token/'.$token.'">点此链接找回密码</a>',C('MAIL_NIKENAME'));
+			if($re)
+			{
+				$this->success('Success！' , U('User/retakesuccess'));
+			}
+			else
+			{
+				$this->error('Send mail failed, please refresh the page and try again.');
+			}
+
+		}
+		$this->display();
+	}
+
+	/*
+	 * 显示邮件发送成功界面
+	 * */
+	public function retakesuccess()
+	{
+		$this->display();
+	}
+
+	public function checkpwd()
+	{
+		$uid = I('get.id' , 0);
+		$token = I('get.token' , '');
+		if(!$uid || !$token)
+		{
+			$this->assign('error' , 'Parameter error, please <a href="'.U('User/retake').'">send mail</a> again！');
+		}
+
+		$usersModel = D('Users');
+		$re = $usersModel->where('id='.intval($uid))->find();
+
+		if(!$re)
+		{
+			$this->assign('error' , 'This user does not exist!');
+		}
+
+		if($token != md5($re['id']."_".$re['email']))
+		{
+			$this->assign('error' , 'User information validation error!');
+		}
+
+		if ( IS_POST ) {
+			//获取参数
+			$uid        =   I('post.uid');
+			empty($uid) && $this->error('Uid is empty!');
+			$repassword = I('post.repassword');
+			$data['password'] = I('post.password');
+			empty($data['password']) && $this->error('Please enter a new password');
+			empty($repassword) && $this->error('Please enter the confirmation password');
+
+			if($data['password'] !== $repassword){
+				$this->error("You enter a new password and confirm password don't match");
+			}
+			//更新前检查用户密码
+			if(!$this->verifyUser($uid, $repassword)){
+				$this->error = 'Validation error: the password is not correct!';
+			}
+
+			//更新用户信息
+			$data['password'] = md5(md5($data['password']));
+			$usersModel = D('Users');
+			if($data){
+				$re = $usersModel->where(array('id'=>$uid))->save($data);
+			}
+			if($re){
+				$this->success('Success!' , U('Home/User/login'));
+			}else{
+				$this->error('Change Error!');
+			}
+		}
+
+		$this->assign('uid' , $uid);
+		$this->assign('token' , $token);
+		$this->display();
+	}
+
 
 	/**
 	 * 获取用户注册错误信息
@@ -134,7 +234,7 @@ class UserController extends HomeController {
      */
     public function profile(){
 		if ( !is_login() ) {
-			$this->error( '您还没有登陆',U('User/login') );
+			$this->error( "You haven't already landed",U('User/login') );
 		}
         if ( IS_POST ) {
             //获取参数
@@ -151,9 +251,9 @@ class UserController extends HomeController {
             }
             $res = $this->updateInfo($uid, $password, $data);
             if($res['status']){
-				$this->error('Success!' , 2 , U('Home/User/paymentAccount'));
+				$this->success('Success!' , U('Home/User/paymentAccount'));
             }else{
-                $this->error('Error!');
+                $this->error('Change Error!');
             }
         }else{
             $this->display();
@@ -185,7 +285,8 @@ class UserController extends HomeController {
 		}
 
 		//更新用户信息
-		$data['password'] = md5($data['password']);
+		$data['password'] = md5(md5($data['password']));
+
 		if($data){
 			return $usersModel->where(array('id'=>$uid))->save($data);
 		}
@@ -195,7 +296,7 @@ class UserController extends HomeController {
 	protected function verifyUser($uid, $password_in){
 		$usersModel = D('Users');
 		$password = $usersModel->getFieldById($uid, 'password');
-		if(md5($password_in) === $password){
+		if(md5(md5($password_in)) === $password){
 			return true;
 		}
 		return false;
@@ -414,15 +515,21 @@ class UserController extends HomeController {
 		$this->display();
 	}
 
+	/*
+	 * 查询payment_logs表的内容
+	 * */
 	public function withdrawsHistory()
 	{
 		$this->checkUserLogin();
-		$msgLogs = D('MsgLogs')->query('select * from db_msg_logs a , db_trans_users b where 1 = 1 limit 0 , 2');
-		dump($msgLogs);
 		$user_type = get_usertype();
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'withdrawsHistory');
 		$this->display();
+	}
+
+	function is_email($value)
+	{
+		return preg_match('/^[\w\-\.]+@[\w\-\.]+(\.\w+)+$/', $value);
 	}
 
 }

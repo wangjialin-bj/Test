@@ -29,14 +29,14 @@ class HomeController extends Controller {
         define('UID',is_login());
 
         if(!C('WEB_SITE_CLOSE')){
-            $this->error('站点已经关闭，请稍后访问~');
+            $this->error('The site has been closed, please visit later ~');
         }
     }
 
 	/* 用户登录检测 */
 	protected function checkUserLogin(){
 		/* 用户登录检测 */
-		is_login() || $this->error('您还没有登录，请先登录！', U('User/login'));
+		is_login() || $this->error('You have not login, please login first!', U('User/login'));
 	}
 
 	public function checkEmail($inAddress)
