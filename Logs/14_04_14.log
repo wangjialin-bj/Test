@@ -1,0 +1,235 @@
+[ 2014-04-14T10:00:09+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:00:11+08:00 ] 127.0.0.1 /git/Test/index.php/Home/index/details.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:00:15+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:00:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:00:43+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000081s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.002107s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.001335s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config` WHERE ( `status` = 1 )  [ RunTime:0.000580s ]
+
+[ 2014-04-14T10:00:43+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:02:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:02:56+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:03:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:04:11+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:04:27+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:05:20+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:05:51+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:06:48+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:07:02+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:08:14+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:08:34+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:08:35+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:08:57+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:09:08+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:09:09+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:09:44+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:10:06+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:10:16+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:10:30+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:10:31+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:10:44+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:10:48+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:10:55+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:11:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:11:26+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:12:49+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:13:28+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:13:42+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:21:41+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:25:23+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:25:39+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:26:05+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:26:41+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:26:59+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:27:17+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:27:38+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:27:50+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:29:03+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:29:08+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:29:13+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/index.php?s=/Home/Index/Index
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:29:56+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:30:18+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:30:25+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:31:13+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:31:25+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:31:36+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:31:57+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:32:02+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:32:25+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:32:35+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:32:48+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:33:40+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:35:51+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:36:22+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Public/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000095s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001894s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000039s ]
+SQL: SHOW COLUMNS FROM `db_config` [ RunTime:0.002751s ]
+SQL: SHOW COLUMNS FROM `db_ucenter_member` [ RunTime:0.002878s ]
+SQL: SELECT * FROM `db_ucenter_member` WHERE ( `username` = 'dz5362' ) LIMIT 1   [ RunTime:0.000584s ]
+SQL: UPDATE `db_ucenter_member` SET `last_login_time`=1397442982,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001302s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status` FROM `db_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000954s ]
+SQL: SHOW COLUMNS FROM `db_action` [ RunTime:0.002269s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `db_action_log` [ RunTime:0.002527s ]
+SQL: INSERT INTO `db_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES (1,1,2130706433,'member',1,1397442982,'dz5362在2014-04-14 10:36登录了后台') [ RunTime:0.003195s ]
+SQL: SELECT * FROM `db_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000306s ]
+NOTIC: [8] Undefined offset: 1 /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 679 行.
+NOTIC: [2] array_key_exists() expects parameter 2 to be array, null given /Library/WebServer/Documents/git/Test/Application/Common/Common/function.php 第 679 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `db_action_log` WHERE ( `action_id` = 1 ) AND ( `user_id` = 1 ) AND ( `create_time` > 1397356582 ) LIMIT 1   [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `db_member` [ RunTime:0.001183s ]
+SQL: UPDATE `db_member` SET `score`=score+10 WHERE ( uid=1 AND status>-1 ) [ RunTime:0.000280s ]
+SQL: UPDATE `db_member` SET `login`=`login`+1,`last_login_time`=1397442982,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000189s ]
+
+[ 2014-04-14T10:36:22+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-14T10:36:22+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Index/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-14T10:36:25+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"comment_type":"1","comment_uid_youyan":"90040","comment_short_name_duoshuo":"","comment_form_pos_duoshuo":"buttom","comment_data_list_duoshuo":"10","comment_data_order_duoshuo":"asc"}
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: null
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"1","display":"1","status":"0"}
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"title":"\u7cfb\u7edf\u4fe1\u606f","width":"4","display":"1"}
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"300px","editor_resize_type":"1"}
+[ 2014-04-14T10:36:30+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/index.html
+mytest: {"editor_type":"2","editor_wysiwyg":"1","editor_height":"500px","editor_resize_type":"1"}
+[ 2014-04-14T10:37:43+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:39:13+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:39:19+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:40:16+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:40:23+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:40:28+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:40:44+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:40:50+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:41:20+08:00 ] 127.0.0.1 /git/Test/index.php/Admin/Addons/adminList/name/index.php?s=/Admin/Admin/changeLanguage
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000083s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001951s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.002951s ]
+SQL: SHOW COLUMNS FROM `db_menu` [ RunTime:0.001289s ]
+SQL: SELECT * FROM `db_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) ORDER BY sort asc  [ RunTime:0.000541s ]
+SQL: SELECT `id` FROM `db_menu` WHERE ( url like '%Admin/changeLanguage%' ) LIMIT 1   [ RunTime:0.000408s ]
+
+[ 2014-04-14T10:41:52+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:41:56+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:42:27+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:42:53+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:43:16+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:52:23+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:53:08+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:53:47+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:53:57+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}
+[ 2014-04-14T10:56:40+08:00 ] 127.0.0.1 /git/Test/index.php
+mytest: {"random":"0","current":"2"}

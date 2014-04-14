@@ -86,7 +86,7 @@ class LinksAddon extends Addon{
           {
               $data[$key]['id'] = $val['id'];
               $data[$key]['name'] = $val['name'];
-              $data[$key]['link_list'] = M('Links')->where(array('id'=>$val['id']))->select();
+              $data[$key]['link_list'] = M('Links')->where(array('category_id'=>$val['id']))->select();
           }
 
           $this->assign('data' , $data);

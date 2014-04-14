@@ -4,8 +4,13 @@ body {
   padding-top: 80px; /* Account for fixed navbar */
 }
 
-.footer{color:#999;text-align:center;padding:30px 0;margin-top:20px;border-top:1px solid #e5e5e5;background-color:#f5f5f5}
+.footer{color:#ffffff;text-align:center;padding:30px 0;margin-top:20px;border-top:1px solid #e5e5e5;background-color:#444749}
 
+.footer_links{width:80%;margin:auto;}
+.footer_links ul{ list-style-type: none;}
+.footer_links_cat{float:left;height:30px;line-height: 30px;text-align: right;width:100px;}
+.footer_links ul li{display: inline;line-height: 30px;height:30px;}
+.footer_links ul li a{color: #ffffff;padding-left: 30px;padding-right: 30px;}
 /*自定nav 样式*/
 .ft-docs-nav {
     margin-top: 50px;
