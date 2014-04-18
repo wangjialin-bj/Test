@@ -522,6 +522,48 @@ class UserController extends HomeController {
 	{
 		$this->checkUserLogin();
 		$user_type = get_usertype();
+		if($user_type == 1)
+		{
+			$row = 10;
+			$paymentlogsModel = D('PaymentLogs');
+			$maps['uid'] = intval(UID);
+			$field_arr = array('money' , 'date');
+			$count = $paymentlogsModel->field($field_arr)->where($maps)->count();
+
+			if(I('get.export') == 1)
+			{
+				$time = date('YmdHis').mt_rand(10000,99999);
+				header("Content-type:application/vnd.ms-excel");
+				$file_name = $time . 'Exploder.csv';
+				header(file_name($file_name));
+				//数据处理
+				$str = "Date,Amount\n";
+				$result = $paymentlogsModel->field($field_arr)->where($maps)->limit('0 , 2000')->order('date desc')->select();
+				foreach($result as $key=>$val)
+				{
+					$date_arr = strtotime($val['date']);
+					$result[$key]['ymd'] = date('m-d-Y',$date_arr);
+					$result[$key]['price'] =$val['money'];
+					$str .= $result[$key]['ymd'] .",".$result[$key]['price'] ."\n";
+				}
+				echo $str;
+				die;
+			}
+
+			$Page   = new \Think\Page($count,$row);
+			$result = $paymentlogsModel->field($field_arr)->where($maps)->limit($Page->firstRow.','.$Page->listRows)->order('date desc')->select();
+			$show       = $Page->show();
+			$this->assign('page' , $show);
+
+			foreach($result as $key=>$val)
+			{
+				$date_arr = strtotime($val['date']);
+				$result[$key]['ymd'] = date('m-d-Y',$date_arr);
+			}
+
+			$this->assign('data' , $result);
+		}
+
 		$this->assign('user_type' , $user_type);
 		$this->assign('guide' , 'withdrawsHistory');
 		$this->display();
