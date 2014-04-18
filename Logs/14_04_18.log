@@ -1,0 +1,37 @@
+[ 2014-04-18T09:50:52+08:00 ] 127.0.0.1 /git/Test/
+ERR: Connection refused
+
+[ 2014-04-18T09:51:07+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:11+08:00 ] 127.0.0.1 /git/Test/index.php/Home/index/details.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:12+08:00 ] 127.0.0.1 /git/Test/index.php/Home/index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:12+08:00 ] 127.0.0.1 /git/Test/index.php/Home/index/details.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:15+08:00 ] 127.0.0.1 /git/Test/index.php/Home/index/index.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:16+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/paymentAccount.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:19+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:22+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/retake.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:25+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/retake.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000080s ]
+INFO: Run Behavior\CheckLang [ RunTime:0.001609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002061s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `db_config_en` [ RunTime:0.001622s ]
+SQL: SELECT `type`,`name`,`value` FROM `db_config_en` WHERE ( `status` = 1 )  [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: db_dsn /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 129 行.
+NOTIC: [8] Undefined index: db_params /Library/WebServer/Documents/git/Test/ThinkPHP/Library/Think/Db.class.php 第 130 行.
+SQL: SHOW COLUMNS FROM `db_users` [ RunTime:0.003146s ]
+SQL: SELECT * FROM `db_users` WHERE ( email="wangjialin@testin.cn" ) LIMIT 1   [ RunTime:0.023265s ]
+
+[ 2014-04-18T09:51:31+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}
+[ 2014-04-18T09:51:51+08:00 ] 127.0.0.1 /git/Test/index.php/Home/User/login.html
+mytest: {"random":"0","current":"2"}

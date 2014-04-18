@@ -233,3 +233,5 @@ mytest: {"random":"0","current":"2"}
 mytest: {"random":"0","current":"2"}
 [ 2014-04-14T10:56:40+08:00 ] 127.0.0.1 /git/Test/index.php
 mytest: {"random":"0","current":"2"}
+[ 2014-04-14T20:20:01+08:00 ] 127.0.0.1 /git/Test/
+mytest: {"random":"0","current":"2"}
